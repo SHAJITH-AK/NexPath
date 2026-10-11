@@ -1,0 +1,729 @@
+{
+  "generated_at": "2026-09-29 10:01 UTC",
+  "algorithm": "Random Forest Classifier",
+  "model_params": {
+    "n_estimators": 400,
+    "random_state": 42,
+    "class_weight": "balanced"
+  },
+  "sklearn_version": "1.8.0",
+  "dataset": {
+    "file": "career_skill_prediction_250.csv",
+    "rows": 250,
+    "features": [
+      "Python",
+      "Java",
+      "C++",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "SQL",
+      "MongoDB",
+      "Git",
+      "Linux",
+      "Networking",
+      "Cyber Security",
+      "Cloud Computing",
+      "Machine Learning",
+      "Deep Learning",
+      "Data Analysis",
+      "Statistics",
+      "UI UX Design",
+      "Figma",
+      "Computer Vision",
+      "NLP",
+      "Communication",
+      "Problem Solving",
+      "System Design"
+    ],
+    "classes": [
+      "Backend Developer",
+      "Cloud Engineer",
+      "Computer Vision Engineer",
+      "Cyber Security Engineer",
+      "Data Analyst",
+      "Data Engineer",
+      "Data Scientist",
+      "Database Engineer",
+      "DevOps Engineer",
+      "Frontend Developer",
+      "Full Stack Developer",
+      "Generative AI Engineer",
+      "ML Specialist",
+      "NLP Engineer",
+      "Network Engineer",
+      "Software Engineer",
+      "UI UX Designer"
+    ],
+    "rows_per_class": {
+      "Backend Developer": 15,
+      "Cloud Engineer": 15,
+      "Computer Vision Engineer": 15,
+      "Cyber Security Engineer": 15,
+      "Data Analyst": 15,
+      "Data Engineer": 15,
+      "Data Scientist": 15,
+      "Database Engineer": 15,
+      "DevOps Engineer": 15,
+      "Frontend Developer": 15,
+      "Full Stack Developer": 15,
+      "Generative AI Engineer": 15,
+      "ML Specialist": 14,
+      "NLP Engineer": 14,
+      "Network Engineer": 14,
+      "Software Engineer": 14,
+      "UI UX Designer": 14
+    }
+  },
+  "evaluation": {
+    "method": "5-Fold Stratified Cross Validation",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "overall": {
+    "accuracy": 0.888,
+    "macro": {
+      "precision": 0.8926025387530577,
+      "recall": 0.8873949579831932,
+      "f1": 0.8864224493797278
+    },
+    "weighted": {
+      "precision": 0.8920956151691446,
+      "recall": 0.888,
+      "f1": 0.8865683563050203
+    },
+    "fold_accuracy_mean": 0.8880000000000001,
+    "fold_accuracy_std": 0.03709447398198282
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "test_rows": 50,
+      "accuracy": 0.92,
+      "precision": 0.9362745098039216,
+      "recall": 0.9215686274509803,
+      "f1": 0.9198879551820728
+    },
+    {
+      "fold": 2,
+      "test_rows": 50,
+      "accuracy": 0.88,
+      "precision": 0.9176470588235294,
+      "recall": 0.872549019607843,
+      "f1": 0.8648459383753502
+    },
+    {
+      "fold": 3,
+      "test_rows": 50,
+      "accuracy": 0.94,
+      "precision": 0.9509803921568626,
+      "recall": 0.9411764705882353,
+      "f1": 0.9400560224089636
+    },
+    {
+      "fold": 4,
+      "test_rows": 50,
+      "accuracy": 0.86,
+      "precision": 0.8735294117647059,
+      "recall": 0.8529411764705882,
+      "f1": 0.8514005602240897
+    },
+    {
+      "fold": 5,
+      "test_rows": 50,
+      "accuracy": 0.84,
+      "precision": 0.8480392156862745,
+      "recall": 0.8431372549019607,
+      "f1": 0.8408963585434173
+    }
+  ],
+  "per_class": [
+    {
+      "career": "Backend Developer",
+      "precision": 0.9285714285714286,
+      "recall": 0.8666666666666667,
+      "f1": 0.896551724137931,
+      "support": 15
+    },
+    {
+      "career": "Cloud Engineer",
+      "precision": 0.6923076923076923,
+      "recall": 0.6,
+      "f1": 0.6428571428571429,
+      "support": 15
+    },
+    {
+      "career": "Computer Vision Engineer",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15
+    },
+    {
+      "career": "Cyber Security Engineer",
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "f1": 0.9333333333333333,
+      "support": 15
+    },
+    {
+      "career": "Data Analyst",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15
+    },
+    {
+      "career": "Data Engineer",
+      "precision": 0.9285714285714286,
+      "recall": 0.8666666666666667,
+      "f1": 0.896551724137931,
+      "support": 15
+    },
+    {
+      "career": "Data Scientist",
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091,
+      "support": 15
+    },
+    {
+      "career": "Database Engineer",
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1": 0.967741935483871,
+      "support": 15
+    },
+    {
+      "career": "DevOps Engineer",
+      "precision": 0.7058823529411765,
+      "recall": 0.8,
+      "f1": 0.75,
+      "support": 15
+    },
+    {
+      "career": "Frontend Developer",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15
+    },
+    {
+      "career": "Full Stack Developer",
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1": 0.967741935483871,
+      "support": 15
+    },
+    {
+      "career": "Generative AI Engineer",
+      "precision": 0.6875,
+      "recall": 0.7333333333333333,
+      "f1": 0.7096774193548387,
+      "support": 15
+    },
+    {
+      "career": "ML Specialist",
+      "precision": 1.0,
+      "recall": 0.6428571428571429,
+      "f1": 0.782608695652174,
+      "support": 14
+    },
+    {
+      "career": "NLP Engineer",
+      "precision": 0.8,
+      "recall": 0.8571428571428571,
+      "f1": 0.8275862068965517,
+      "support": 14
+    },
+    {
+      "career": "Network Engineer",
+      "precision": 0.8666666666666667,
+      "recall": 0.9285714285714286,
+      "f1": 0.896551724137931,
+      "support": 14
+    },
+    {
+      "career": "Software Engineer",
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1": 0.8888888888888888,
+      "support": 14
+    },
+    {
+      "career": "UI UX Designer",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 14
+    }
+  ],
+  "confusion_matrix": {
+    "labels": [
+      "Backend Developer",
+      "Cloud Engineer",
+      "Computer Vision Engineer",
+      "Cyber Security Engineer",
+      "Data Analyst",
+      "Data Engineer",
+      "Data Scientist",
+      "Database Engineer",
+      "DevOps Engineer",
+      "Frontend Developer",
+      "Full Stack Developer",
+      "Generative AI Engineer",
+      "ML Specialist",
+      "NLP Engineer",
+      "Network Engineer",
+      "Software Engineer",
+      "UI UX Designer"
+    ],
+    "matrix": [
+      [
+        13,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        13,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        3,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14
+      ]
+    ]
+  },
+  "feature_importance": [
+    {
+      "skill": "SQL",
+      "importance": 0.0639123203296638
+    },
+    {
+      "skill": "Computer Vision",
+      "importance": 0.05831764540257827
+    },
+    {
+      "skill": "Deep Learning",
+      "importance": 0.05479558127520182
+    },
+    {
+      "skill": "Cloud Computing",
+      "importance": 0.05095366040136106
+    },
+    {
+      "skill": "NLP",
+      "importance": 0.05093068266135604
+    },
+    {
+      "skill": "C++",
+      "importance": 0.05032555330298676
+    },
+    {
+      "skill": "Cyber Security",
+      "importance": 0.049801256494155385
+    },
+    {
+      "skill": "MongoDB",
+      "importance": 0.04785530742514355
+    },
+    {
+      "skill": "Python",
+      "importance": 0.043928069986335555
+    },
+    {
+      "skill": "Java",
+      "importance": 0.04346038618929015
+    },
+    {
+      "skill": "Statistics",
+      "importance": 0.042600906699762686
+    },
+    {
+      "skill": "Networking",
+      "importance": 0.04095659672409755
+    },
+    {
+      "skill": "CSS",
+      "importance": 0.04048274076197943
+    },
+    {
+      "skill": "HTML",
+      "importance": 0.03989204141474853
+    },
+    {
+      "skill": "Machine Learning",
+      "importance": 0.03925280100870903
+    },
+    {
+      "skill": "Data Analysis",
+      "importance": 0.03686863928509549
+    },
+    {
+      "skill": "System Design",
+      "importance": 0.03603666162363671
+    },
+    {
+      "skill": "Linux",
+      "importance": 0.03515669538062655
+    },
+    {
+      "skill": "Figma",
+      "importance": 0.034490151526339496
+    },
+    {
+      "skill": "JavaScript",
+      "importance": 0.03221373521794786
+    },
+    {
+      "skill": "UI UX Design",
+      "importance": 0.029880191536451002
+    },
+    {
+      "skill": "React",
+      "importance": 0.02666750463499467
+    },
+    {
+      "skill": "Git",
+      "importance": 0.02521824134981427
+    },
+    {
+      "skill": "Communication",
+      "importance": 0.015580742610035073
+    },
+    {
+      "skill": "Problem Solving",
+      "importance": 0.010421886757689161
+    }
+  ],
+  "partial_profile_accuracy": [
+    {
+      "skills_known": 5,
+      "accuracy": 0.252
+    },
+    {
+      "skills_known": 10,
+      "accuracy": 0.512
+    },
+    {
+      "skills_known": 15,
+      "accuracy": 0.696
+    },
+    {
+      "skills_known": 25,
+      "accuracy": 0.888
+    }
+  ]
+}

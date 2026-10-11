@@ -1,0 +1,3652 @@
+{
+  "Python": [
+    {
+      "question": "Which keyword defines a function in Python?",
+      "options": [
+        "function",
+        "def",
+        "fun",
+        "define"
+      ],
+      "answer": "def",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which Python type is immutable?",
+      "options": [
+        "List",
+        "Dictionary",
+        "Tuple",
+        "Set"
+      ],
+      "answer": "Tuple",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does len([1,2,3]) return?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": "3",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which symbol starts a comment in Python?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "--"
+      ],
+      "answer": "#",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does a dictionary store?",
+      "options": [
+        "Only values",
+        "Key-value pairs",
+        "Only keys",
+        "Ordered SQL rows"
+      ],
+      "answer": "Key-value pairs",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which library is commonly used for numerical arrays?",
+      "options": [
+        "NumPy",
+        "Flask",
+        "Django",
+        "BeautifulSoup"
+      ],
+      "answer": "NumPy",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does range(3) produce for iteration?",
+      "options": [
+        "1,2,3",
+        "0,1,2",
+        "0,1,2,3",
+        "3 only"
+      ],
+      "answer": "0,1,2",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which statement handles exceptions?",
+      "options": [
+        "try/except",
+        "if/error",
+        "catch/throw",
+        "error/handle"
+      ],
+      "answer": "try/except",
+      "skill": "Python",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a list comprehension used for?",
+      "options": [
+        "Creating lists concisely",
+        "Starting a server",
+        "Defining a class only",
+        "Installing packages"
+      ],
+      "answer": "Creating lists concisely",
+      "skill": "Python",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword creates a class?",
+      "options": [
+        "object",
+        "struct",
+        "class",
+        "new"
+      ],
+      "answer": "class",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does import do?",
+      "options": [
+        "Deletes a module",
+        "Loads a module/package",
+        "Compiles SQL",
+        "Creates a database"
+      ],
+      "answer": "Loads a module/package",
+      "skill": "Python",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which value represents the absence of a value?",
+      "options": [
+        "empty",
+        "None",
+        "nullify",
+        "void"
+      ],
+      "answer": "None",
+      "skill": "Python",
+      "difficulty": "easy"
+    }
+  ],
+  "Java": [
+    {
+      "question": "Which keyword defines a class in Java?",
+      "options": [
+        "class",
+        "define",
+        "struct",
+        "object"
+      ],
+      "answer": "class",
+      "skill": "Java",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method is the entry point of a Java application?",
+      "options": [
+        "start()",
+        "main()",
+        "run()",
+        "init()"
+      ],
+      "answer": "main()",
+      "skill": "Java",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which type stores true/false?",
+      "options": [
+        "boolean",
+        "bit",
+        "bool",
+        "logical"
+      ],
+      "answer": "boolean",
+      "skill": "Java",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword creates an object?",
+      "options": [
+        "make",
+        "new",
+        "create",
+        "object"
+      ],
+      "answer": "new",
+      "skill": "Java",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Set",
+        "ArrayList",
+        "Vector"
+      ],
+      "answer": "Set",
+      "skill": "Java",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used for inheritance?",
+      "options": [
+        "inherits",
+        "extends",
+        "implements",
+        "superclass"
+      ],
+      "answer": "extends",
+      "skill": "Java",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which exception block handles an exception?",
+      "options": [
+        "try-catch",
+        "if-error",
+        "handle-catch",
+        "error"
+      ],
+      "answer": "try-catch",
+      "skill": "Java",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is JVM?",
+      "options": [
+        "Java Virtual Machine",
+        "Java Variable Method",
+        "Java Visual Manager",
+        "Java Version Module"
+      ],
+      "answer": "Java Virtual Machine",
+      "skill": "Java",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which access modifier is most restrictive?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "default"
+      ],
+      "answer": "private",
+      "skill": "Java",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which interface is commonly used to create a thread task?",
+      "options": [
+        "Runnable",
+        "Threadable",
+        "Task",
+        "ExecutorOnly"
+      ],
+      "answer": "Runnable",
+      "skill": "Java",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does final on a variable generally mean?",
+      "options": [
+        "It cannot be reassigned",
+        "It is private",
+        "It is deleted",
+        "It becomes static"
+      ],
+      "answer": "It cannot be reassigned",
+      "skill": "Java",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which package contains ArrayList?",
+      "options": [
+        "java.util",
+        "java.io",
+        "java.net",
+        "java.lang.reflect"
+      ],
+      "answer": "java.util",
+      "skill": "Java",
+      "difficulty": "easy"
+    }
+  ],
+  "C++": [
+    {
+      "question": "Which symbol ends a C++ statement?",
+      "options": [
+        ".",
+        ";",
+        ":",
+        ","
+      ],
+      "answer": ";",
+      "skill": "C++",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword allocates dynamic memory?",
+      "options": [
+        "alloc",
+        "new",
+        "malloc-only",
+        "create"
+      ],
+      "answer": "new",
+      "skill": "C++",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which feature lets a function have multiple forms with different parameters?",
+      "options": [
+        "Overloading",
+        "Casting",
+        "Indexing",
+        "Linking"
+      ],
+      "answer": "Overloading",
+      "skill": "C++",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which operator accesses a member through an object pointer?",
+      "options": [
+        ".",
+        "->",
+        "::",
+        "=>"
+      ],
+      "answer": "->",
+      "skill": "C++",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which header provides cout and cin?",
+      "options": [
+        "<iostream>",
+        "<stdio>",
+        "<stream>",
+        "<input>"
+      ],
+      "answer": "<iostream>",
+      "skill": "C++",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does a constructor do?",
+      "options": [
+        "Initializes an object",
+        "Deletes an object",
+        "Compiles a class",
+        "Imports a library"
+      ],
+      "answer": "Initializes an object",
+      "skill": "C++",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword declares inheritance?",
+      "options": [
+        "extends",
+        ":",
+        "inherits",
+        "base"
+      ],
+      "answer": ":",
+      "skill": "C++",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which container stores a dynamic sequence?",
+      "options": [
+        "vector",
+        "pair",
+        "tuple-only",
+        "namespace"
+      ],
+      "answer": "vector",
+      "skill": "C++",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which operator is used for scope resolution?",
+      "options": [
+        "::",
+        "->",
+        "??",
+        "%%"
+      ],
+      "answer": "::",
+      "skill": "C++",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does RAII commonly manage?",
+      "options": [
+        "Resource lifetime",
+        "HTML layout",
+        "Network DNS only",
+        "Database schemas"
+      ],
+      "answer": "Resource lifetime",
+      "skill": "C++",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which cast performs compile-time checked explicit conversion?",
+      "options": [
+        "static_cast",
+        "safe_cast",
+        "convert",
+        "type_cast"
+      ],
+      "answer": "static_cast",
+      "skill": "C++",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a virtual function mainly used for?",
+      "options": [
+        "Runtime polymorphism",
+        "Memory allocation",
+        "File compression",
+        "Namespace creation"
+      ],
+      "answer": "Runtime polymorphism",
+      "skill": "C++",
+      "difficulty": "medium"
+    }
+  ],
+  "HTML": [
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "HighText Machine Language",
+        "Hyperlink Text Management Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "HyperText Markup Language",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tag creates a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": "<a>",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tag displays an image?",
+      "options": [
+        "<img>",
+        "<image>",
+        "<src>",
+        "<pic>"
+      ],
+      "answer": "<img>",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which element is the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<head>",
+        "<h1>",
+        "<title>"
+      ],
+      "answer": "<h1>",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which attribute provides alternative text for an image?",
+      "options": [
+        "src",
+        "alt",
+        "title",
+        "href"
+      ],
+      "answer": "alt",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tag creates an unordered list?",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<list>",
+        "<li>"
+      ],
+      "answer": "<ul>",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which element is used for a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<row>"
+      ],
+      "answer": "<tr>",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which input type is used for email validation?",
+      "options": [
+        "mail",
+        "email",
+        "text-email",
+        "address"
+      ],
+      "answer": "email",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does semantic HTML improve?",
+      "options": [
+        "Meaning and accessibility",
+        "CPU speed",
+        "Database indexing",
+        "Password encryption"
+      ],
+      "answer": "Meaning and accessibility",
+      "skill": "HTML",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which tag defines metadata in the document head?",
+      "options": [
+        "<meta>",
+        "<data>",
+        "<info>",
+        "<details>"
+      ],
+      "answer": "<meta>",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which attribute uniquely identifies an element?",
+      "options": [
+        "class",
+        "id",
+        "name-group",
+        "unique"
+      ],
+      "answer": "id",
+      "skill": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tag embeds JavaScript?",
+      "options": [
+        "<js>",
+        "<script>",
+        "<javascript>",
+        "<code>"
+      ],
+      "answer": "<script>",
+      "skill": "HTML",
+      "difficulty": "easy"
+    }
+  ],
+  "CSS": [
+    {
+      "question": "What does CSS control?",
+      "options": [
+        "Presentation and layout",
+        "Database queries",
+        "Server memory",
+        "Python packages"
+      ],
+      "answer": "Presentation and layout",
+      "skill": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which property changes text color?",
+      "options": [
+        "font-color",
+        "color",
+        "text-color",
+        "foreground"
+      ],
+      "answer": "color",
+      "skill": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which selector targets an element by id?",
+      "options": [
+        ".",
+        "#",
+        "@",
+        "*"
+      ],
+      "answer": "#",
+      "skill": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which layout system is one-dimensional?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Table",
+        "Float-only"
+      ],
+      "answer": "Flexbox",
+      "skill": "CSS",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which property adds space inside an element's border?",
+      "options": [
+        "margin",
+        "padding",
+        "gap-outside",
+        "inset"
+      ],
+      "answer": "padding",
+      "skill": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which property rounds corners?",
+      "options": [
+        "corner-radius",
+        "border-radius",
+        "radius",
+        "round"
+      ],
+      "answer": "border-radius",
+      "skill": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does display:flex enable?",
+      "options": [
+        "Flexbox layout",
+        "Database flex queries",
+        "Font loading",
+        "Image compression"
+      ],
+      "answer": "Flexbox layout",
+      "skill": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which unit is relative to the root font size?",
+      "options": [
+        "px",
+        "rem",
+        "cm",
+        "pt"
+      ],
+      "answer": "rem",
+      "skill": "CSS",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which property controls stacking order?",
+      "options": [
+        "stack",
+        "z-index",
+        "layer",
+        "order-index"
+      ],
+      "answer": "z-index",
+      "skill": "CSS",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does box-sizing:border-box do?",
+      "options": [
+        "Includes padding/border in declared size",
+        "Removes borders",
+        "Centers a box",
+        "Adds a shadow"
+      ],
+      "answer": "Includes padding/border in declared size",
+      "skill": "CSS",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which media feature is commonly used for responsive breakpoints?",
+      "options": [
+        "max-width",
+        "screen-size",
+        "device",
+        "breakpoint"
+      ],
+      "answer": "max-width",
+      "skill": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which pseudo-class applies when hovering?",
+      "options": [
+        ":hover",
+        ":mouse",
+        ":over",
+        ":focus-hover"
+      ],
+      "answer": ":hover",
+      "skill": "CSS",
+      "difficulty": "easy"
+    }
+  ],
+  "JavaScript": [
+    {
+      "question": "Which keyword declares a block-scoped variable?",
+      "options": [
+        "varlet",
+        "let",
+        "define",
+        "dim"
+      ],
+      "answer": "let",
+      "skill": "JavaScript",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method prints to the browser console?",
+      "options": [
+        "print()",
+        "console.log()",
+        "echo()",
+        "write.console()"
+      ],
+      "answer": "console.log()",
+      "skill": "JavaScript",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which operator checks value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "=",
+        "!="
+      ],
+      "answer": "===",
+      "skill": "JavaScript",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method adds an item to the end of an array?",
+      "options": [
+        "push()",
+        "append()",
+        "add()",
+        "insertEnd()"
+      ],
+      "answer": "push()",
+      "skill": "JavaScript",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does JSON.parse() do?",
+      "options": [
+        "Converts JSON text to a JavaScript value",
+        "Converts HTML to CSS",
+        "Encrypts JSON",
+        "Sends an HTTP request"
+      ],
+      "answer": "Converts JSON text to a JavaScript value",
+      "skill": "JavaScript",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which keyword defines a function?",
+      "options": [
+        "func",
+        "function",
+        "def",
+        "method"
+      ],
+      "answer": "function",
+      "skill": "JavaScript",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method creates a new array by transforming elements?",
+      "options": [
+        "map()",
+        "change()",
+        "each()",
+        "transformOnly()"
+      ],
+      "answer": "map()",
+      "skill": "JavaScript",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is DOM?",
+      "options": [
+        "Document Object Model",
+        "Data Object Memory",
+        "Document Output Mode",
+        "Digital Object Map"
+      ],
+      "answer": "Document Object Model",
+      "skill": "JavaScript",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which event occurs when a form is submitted?",
+      "options": [
+        "submit",
+        "send",
+        "formpost",
+        "enterform"
+      ],
+      "answer": "submit",
+      "skill": "JavaScript",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does addEventListener do?",
+      "options": [
+        "Registers an event handler",
+        "Creates a CSS class",
+        "Loads a database",
+        "Compiles JS"
+      ],
+      "answer": "Registers an event handler",
+      "skill": "JavaScript",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which value represents an intentionally absent object value?",
+      "options": [
+        "undefined",
+        "null",
+        "empty-object",
+        "void-string"
+      ],
+      "answer": "null",
+      "skill": "JavaScript",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which syntax creates an arrow function?",
+      "options": [
+        "=>",
+        "->",
+        "::",
+        "function=>"
+      ],
+      "answer": "=>",
+      "skill": "JavaScript",
+      "difficulty": "easy"
+    }
+  ],
+  "React": [
+    {
+      "question": "React is primarily a library for building what?",
+      "options": [
+        "User interfaces",
+        "Operating systems",
+        "SQL databases",
+        "Compilers"
+      ],
+      "answer": "User interfaces",
+      "skill": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What syntax is commonly used to describe UI in React?",
+      "options": [
+        "JSX",
+        "JSQL",
+        "XHTML-only",
+        "RJS"
+      ],
+      "answer": "JSX",
+      "skill": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which hook stores local component state?",
+      "options": [
+        "useState",
+        "useData",
+        "useValue",
+        "stateHook"
+      ],
+      "answer": "useState",
+      "skill": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which hook runs side effects?",
+      "options": [
+        "useEffect",
+        "useAction",
+        "useSide",
+        "effect()"
+      ],
+      "answer": "useEffect",
+      "skill": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a React component?",
+      "options": [
+        "Reusable UI building block",
+        "Database table",
+        "CSS file only",
+        "HTTP server"
+      ],
+      "answer": "Reusable UI building block",
+      "skill": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What are props?",
+      "options": [
+        "Inputs passed to a component",
+        "Global CSS rules",
+        "Database passwords",
+        "Browser cookies only"
+      ],
+      "answer": "Inputs passed to a component",
+      "skill": "React",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Why is a key used when rendering lists?",
+      "options": [
+        "To help React identify list items",
+        "To encrypt items",
+        "To style buttons",
+        "To fetch APIs"
+      ],
+      "answer": "To help React identify list items",
+      "skill": "React",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which command commonly starts a Vite React development server?",
+      "options": [
+        "npm run dev",
+        "python react",
+        "php start",
+        "java react"
+      ],
+      "answer": "npm run dev",
+      "skill": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "React state updates are generally handled how?",
+      "options": [
+        "Through state setters",
+        "By editing the DOM directly",
+        "By changing CSS",
+        "By restarting the browser"
+      ],
+      "answer": "Through state setters",
+      "skill": "React",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is conditional rendering?",
+      "options": [
+        "Showing UI based on a condition",
+        "Rendering only CSS",
+        "Compiling conditionals",
+        "Loading databases"
+      ],
+      "answer": "Showing UI based on a condition",
+      "skill": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a controlled input?",
+      "options": [
+        "An input whose value is driven by React state",
+        "A locked keyboard",
+        "A CSS-only field",
+        "A database field"
+      ],
+      "answer": "An input whose value is driven by React state",
+      "skill": "React",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does lifting state up mean?",
+      "options": [
+        "Moving shared state to a common parent",
+        "Deleting state",
+        "Saving state to SQL",
+        "Moving state to CSS"
+      ],
+      "answer": "Moving shared state to a common parent",
+      "skill": "React",
+      "difficulty": "medium"
+    }
+  ],
+  "SQL": [
+    {
+      "question": "Which statement retrieves data?",
+      "options": [
+        "SELECT",
+        "GET",
+        "FETCHROW",
+        "READ"
+      ],
+      "answer": "SELECT",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which clause filters rows?",
+      "options": [
+        "WHERE",
+        "FILTER",
+        "WHEN",
+        "HAVING-ROWS"
+      ],
+      "answer": "WHERE",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command adds a new row?",
+      "options": [
+        "INSERT",
+        "ADD ROW",
+        "APPEND SQL",
+        "CREATE ROW"
+      ],
+      "answer": "INSERT",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command changes existing rows?",
+      "options": [
+        "UPDATE",
+        "CHANGE",
+        "ALTER ROW",
+        "MODIFY DATASET"
+      ],
+      "answer": "UPDATE",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command removes rows?",
+      "options": [
+        "DELETE",
+        "REMOVE",
+        "DROP ROWS",
+        "CLEAR"
+      ],
+      "answer": "DELETE",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a primary key?",
+      "options": [
+        "A unique identifier for rows",
+        "A password",
+        "A duplicate field",
+        "A query comment"
+      ],
+      "answer": "A unique identifier for rows",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which clause sorts results?",
+      "options": [
+        "ORDER BY",
+        "SORT BY",
+        "ARRANGE",
+        "GROUP ORDER"
+      ],
+      "answer": "ORDER BY",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which aggregate counts rows?",
+      "options": [
+        "COUNT()",
+        "TOTAL()",
+        "ROWS()",
+        "NUMBER()"
+      ],
+      "answer": "COUNT()",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which JOIN returns matching rows from both tables?",
+      "options": [
+        "INNER JOIN",
+        "MATCH JOIN",
+        "COMMON JOIN",
+        "PAIR JOIN"
+      ],
+      "answer": "INNER JOIN",
+      "skill": "SQL",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does GROUP BY do?",
+      "options": [
+        "Groups rows for aggregation",
+        "Sorts alphabetically only",
+        "Deletes duplicates",
+        "Creates tables"
+      ],
+      "answer": "Groups rows for aggregation",
+      "skill": "SQL",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which command creates a table?",
+      "options": [
+        "CREATE TABLE",
+        "NEW TABLE",
+        "MAKE TABLE",
+        "TABLE CREATE"
+      ],
+      "answer": "CREATE TABLE",
+      "skill": "SQL",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is SQL injection?",
+      "options": [
+        "An attack that manipulates SQL through untrusted input",
+        "A database backup",
+        "A query optimizer",
+        "A table relationship"
+      ],
+      "answer": "An attack that manipulates SQL through untrusted input",
+      "skill": "SQL",
+      "difficulty": "medium"
+    }
+  ],
+  "MongoDB": [
+    {
+      "question": "MongoDB stores records primarily as what?",
+      "options": [
+        "BSON documents",
+        "CSV rows",
+        "XML pages",
+        "Plain SQL tuples"
+      ],
+      "answer": "BSON documents",
+      "skill": "MongoDB",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a MongoDB collection similar to?",
+      "options": [
+        "A table",
+        "A column",
+        "A SQL query",
+        "A server"
+      ],
+      "answer": "A table",
+      "skill": "MongoDB",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method inserts one document?",
+      "options": [
+        "insertOne()",
+        "addOne()",
+        "createRow()",
+        "putDocument()"
+      ],
+      "answer": "insertOne()",
+      "skill": "MongoDB",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method finds documents?",
+      "options": [
+        "find()",
+        "select()",
+        "searchRows()",
+        "queryAll()"
+      ],
+      "answer": "find()",
+      "skill": "MongoDB",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which field commonly identifies a document?",
+      "options": [
+        "_id",
+        "id_only",
+        "key",
+        "docid-required"
+      ],
+      "answer": "_id",
+      "skill": "MongoDB",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which database style is MongoDB?",
+      "options": [
+        "Document-oriented NoSQL",
+        "Relational SQL",
+        "Graph-only",
+        "Key-value only"
+      ],
+      "answer": "Document-oriented NoSQL",
+      "skill": "MongoDB",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which method updates one matching document?",
+      "options": [
+        "updateOne()",
+        "changeOne()",
+        "editOne()",
+        "modifyRow()"
+      ],
+      "answer": "updateOne()",
+      "skill": "MongoDB",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method deletes one matching document?",
+      "options": [
+        "deleteOne()",
+        "removeRow()",
+        "dropOne()",
+        "eraseDoc()"
+      ],
+      "answer": "deleteOne()",
+      "skill": "MongoDB",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does aggregation provide?",
+      "options": [
+        "A pipeline for transforming and analyzing documents",
+        "Password hashing",
+        "HTML rendering",
+        "Network routing"
+      ],
+      "answer": "A pipeline for transforming and analyzing documents",
+      "skill": "MongoDB",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which operator tests equality in a query?",
+      "options": [
+        "$eq",
+        "$equals",
+        "$same",
+        "$equalTo"
+      ],
+      "answer": "$eq",
+      "skill": "MongoDB",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a document?",
+      "options": [
+        "A JSON-like record",
+        "A database server",
+        "A collection index only",
+        "A SQL statement"
+      ],
+      "answer": "A JSON-like record",
+      "skill": "MongoDB",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why create indexes?",
+      "options": [
+        "To speed up suitable queries",
+        "To encrypt documents",
+        "To reduce all storage to zero",
+        "To replace backups"
+      ],
+      "answer": "To speed up suitable queries",
+      "skill": "MongoDB",
+      "difficulty": "medium"
+    }
+  ],
+  "Git": [
+    {
+      "question": "What is Git?",
+      "options": [
+        "A distributed version control system",
+        "A database",
+        "A compiler",
+        "A web framework"
+      ],
+      "answer": "A distributed version control system",
+      "skill": "Git",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command creates a repository?",
+      "options": [
+        "git init",
+        "git start",
+        "git create",
+        "git repo"
+      ],
+      "answer": "git init",
+      "skill": "Git",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command stages changes?",
+      "options": [
+        "git add",
+        "git stage-now",
+        "git prepare",
+        "git include"
+      ],
+      "answer": "git add",
+      "skill": "Git",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command records staged changes?",
+      "options": [
+        "git commit",
+        "git save",
+        "git record",
+        "git snapshot"
+      ],
+      "answer": "git commit",
+      "skill": "Git",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command shows working-tree changes?",
+      "options": [
+        "git status",
+        "git changes",
+        "git inspect",
+        "git state-now"
+      ],
+      "answer": "git status",
+      "skill": "Git",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command downloads a repository?",
+      "options": [
+        "git clone",
+        "git download",
+        "git copy-repo",
+        "git pull-new"
+      ],
+      "answer": "git clone",
+      "skill": "Git",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a branch?",
+      "options": [
+        "An independent line of development",
+        "A backup server",
+        "A database table",
+        "A Git user"
+      ],
+      "answer": "An independent line of development",
+      "skill": "Git",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which command combines branch histories?",
+      "options": [
+        "git merge",
+        "git join",
+        "git combine",
+        "git attach"
+      ],
+      "answer": "git merge",
+      "skill": "Git",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which command uploads commits to a remote?",
+      "options": [
+        "git push",
+        "git upload",
+        "git send",
+        "git publish"
+      ],
+      "answer": "git push",
+      "skill": "Git",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command retrieves remote changes and integrates them?",
+      "options": [
+        "git pull",
+        "git fetch-all",
+        "git receive",
+        "git sync-only"
+      ],
+      "answer": "git pull",
+      "skill": "Git",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a commit hash used for?",
+      "options": [
+        "Identifying a commit",
+        "Encrypting a password",
+        "Naming a branch only",
+        "Storing an image"
+      ],
+      "answer": "Identifying a commit",
+      "skill": "Git",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is .gitignore for?",
+      "options": [
+        "Specifying files Git should ignore",
+        "Ignoring remote repositories",
+        "Hiding commits",
+        "Deleting branches"
+      ],
+      "answer": "Specifying files Git should ignore",
+      "skill": "Git",
+      "difficulty": "easy"
+    }
+  ],
+  "Linux": [
+    {
+      "question": "Which command lists files?",
+      "options": [
+        "ls",
+        "dirfiles",
+        "list",
+        "show"
+      ],
+      "answer": "ls",
+      "skill": "Linux",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command changes directories?",
+      "options": [
+        "cd",
+        "chdir-only",
+        "move",
+        "goto"
+      ],
+      "answer": "cd",
+      "skill": "Linux",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command prints the current directory?",
+      "options": [
+        "pwd",
+        "where",
+        "cwd",
+        "loc"
+      ],
+      "answer": "pwd",
+      "skill": "Linux",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command creates a directory?",
+      "options": [
+        "mkdir",
+        "makedir",
+        "newfolder",
+        "md-only"
+      ],
+      "answer": "mkdir",
+      "skill": "Linux",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command copies files?",
+      "options": [
+        "cp",
+        "copyfile",
+        "mvcp",
+        "duplicate"
+      ],
+      "answer": "cp",
+      "skill": "Linux",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command moves or renames files?",
+      "options": [
+        "mv",
+        "movefile",
+        "rename-only",
+        "shift"
+      ],
+      "answer": "mv",
+      "skill": "Linux",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which command searches text patterns?",
+      "options": [
+        "grep",
+        "findtext",
+        "search",
+        "scan"
+      ],
+      "answer": "grep",
+      "skill": "Linux",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does chmod change?",
+      "options": [
+        "File permissions",
+        "File content",
+        "Disk partitions",
+        "User passwords"
+      ],
+      "answer": "File permissions",
+      "skill": "Linux",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which command displays running processes?",
+      "options": [
+        "ps",
+        "proc-list",
+        "run",
+        "tasks-only"
+      ],
+      "answer": "ps",
+      "skill": "Linux",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does sudo usually allow?",
+      "options": [
+        "Running a command with elevated privileges",
+        "Deleting Linux",
+        "Starting Windows",
+        "Changing the kernel source"
+      ],
+      "answer": "Running a command with elevated privileges",
+      "skill": "Linux",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which symbol represents the home directory in many shells?",
+      "options": [
+        "~",
+        "/home-only",
+        "#",
+        "@"
+      ],
+      "answer": "~",
+      "skill": "Linux",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does | do in a shell?",
+      "options": [
+        "Pipes output to another command",
+        "Deletes output",
+        "Runs as root",
+        "Comments a command"
+      ],
+      "answer": "Pipes output to another command",
+      "skill": "Linux",
+      "difficulty": "medium"
+    }
+  ],
+  "Networking": [
+    {
+      "question": "What does IP stand for?",
+      "options": [
+        "Internet Protocol",
+        "Internal Port",
+        "Internet Pathway",
+        "Interface Protocol"
+      ],
+      "answer": "Internet Protocol",
+      "skill": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which device forwards packets between networks?",
+      "options": [
+        "Router",
+        "Switch",
+        "Monitor",
+        "Repeater-only"
+      ],
+      "answer": "Router",
+      "skill": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which protocol resolves domain names to IP addresses?",
+      "options": [
+        "DNS",
+        "DHCP",
+        "FTP",
+        "SSH"
+      ],
+      "answer": "DNS",
+      "skill": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which protocol automatically assigns IP configuration?",
+      "options": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "SMTP"
+      ],
+      "answer": "DHCP",
+      "skill": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which port is commonly used by HTTPS?",
+      "options": [
+        "443",
+        "80",
+        "21",
+        "25"
+      ],
+      "answer": "443",
+      "skill": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which protocol is connection-oriented and reliable?",
+      "options": [
+        "TCP",
+        "UDP",
+        "IP",
+        "ARP"
+      ],
+      "answer": "TCP",
+      "skill": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does a subnet mask help determine?",
+      "options": [
+        "Network and host portions of an IP",
+        "A website password",
+        "Wi-Fi speed",
+        "DNS records only"
+      ],
+      "answer": "Network and host portions of an IP",
+      "skill": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which device commonly connects devices within a LAN?",
+      "options": [
+        "Switch",
+        "Router-only",
+        "Modem-only",
+        "Firewall-only"
+      ],
+      "answer": "Switch",
+      "skill": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is latency?",
+      "options": [
+        "Time delay in communication",
+        "Bandwidth capacity",
+        "Packet size",
+        "Encryption strength"
+      ],
+      "answer": "Time delay in communication",
+      "skill": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does NAT do?",
+      "options": [
+        "Translates network addresses",
+        "Encrypts HTTP",
+        "Assigns usernames",
+        "Compresses packets"
+      ],
+      "answer": "Translates network addresses",
+      "skill": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which protocol is used for secure remote shell access?",
+      "options": [
+        "SSH",
+        "Telnet",
+        "FTP",
+        "POP3"
+      ],
+      "answer": "SSH",
+      "skill": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a MAC address?",
+      "options": [
+        "A link-layer hardware address",
+        "A web URL",
+        "An IP subnet",
+        "A DNS name"
+      ],
+      "answer": "A link-layer hardware address",
+      "skill": "Networking",
+      "difficulty": "medium"
+    }
+  ],
+  "Cyber Security": [
+    {
+      "question": "What is phishing?",
+      "options": [
+        "Deceptive attempts to obtain sensitive information",
+        "A backup method",
+        "A firewall rule",
+        "A file format"
+      ],
+      "answer": "Deceptive attempts to obtain sensitive information",
+      "skill": "Cyber Security",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does MFA add to authentication?",
+      "options": [
+        "Additional verification factors",
+        "More usernames",
+        "A faster network",
+        "A database index"
+      ],
+      "answer": "Additional verification factors",
+      "skill": "Cyber Security",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is malware?",
+      "options": [
+        "Malicious software",
+        "A monitoring tool only",
+        "A secure protocol",
+        "A backup"
+      ],
+      "answer": "Malicious software",
+      "skill": "Cyber Security",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does encryption provide?",
+      "options": [
+        "Protection of data confidentiality through encoding",
+        "Faster CPU execution",
+        "Automatic backups",
+        "More storage"
+      ],
+      "answer": "Protection of data confidentiality through encoding",
+      "skill": "Cyber Security",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is SQL injection?",
+      "options": [
+        "Manipulating database queries via untrusted input",
+        "A type of encryption",
+        "A network cable",
+        "A password manager"
+      ],
+      "answer": "Manipulating database queries via untrusted input",
+      "skill": "Cyber Security",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the principle of least privilege?",
+      "options": [
+        "Give only necessary permissions",
+        "Give admin rights to everyone",
+        "Disable passwords",
+        "Allow anonymous access"
+      ],
+      "answer": "Give only necessary permissions",
+      "skill": "Cyber Security",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a firewall?",
+      "options": [
+        "A system that controls network traffic using rules",
+        "A password hash",
+        "A database",
+        "A programming language"
+      ],
+      "answer": "A system that controls network traffic using rules",
+      "skill": "Cyber Security",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is hashing commonly used for?",
+      "options": [
+        "One-way transformation such as password storage",
+        "Reversible encryption only",
+        "Network routing",
+        "Image resizing"
+      ],
+      "answer": "One-way transformation such as password storage",
+      "skill": "Cyber Security",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is XSS?",
+      "options": [
+        "Injection of malicious script into web content",
+        "A Wi-Fi protocol",
+        "A password algorithm",
+        "A backup strategy"
+      ],
+      "answer": "Injection of malicious script into web content",
+      "skill": "Cyber Security",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a vulnerability?",
+      "options": [
+        "A weakness that can be exploited",
+        "A security certificate",
+        "A firewall product",
+        "A strong password"
+      ],
+      "answer": "A weakness that can be exploited",
+      "skill": "Cyber Security",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a security patch?",
+      "options": [
+        "An update that fixes security issues",
+        "A physical cable",
+        "A user role",
+        "A network address"
+      ],
+      "answer": "An update that fixes security issues",
+      "skill": "Cyber Security",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is social engineering?",
+      "options": [
+        "Manipulating people to bypass security",
+        "Encrypting a database",
+        "Scanning CPU temperature",
+        "Compiling code"
+      ],
+      "answer": "Manipulating people to bypass security",
+      "skill": "Cyber Security",
+      "difficulty": "medium"
+    }
+  ],
+  "Cloud Computing": [
+    {
+      "question": "What is cloud computing?",
+      "options": [
+        "On-demand computing resources over a network",
+        "A local-only hard drive",
+        "A programming language",
+        "A desktop theme"
+      ],
+      "answer": "On-demand computing resources over a network",
+      "skill": "Cloud Computing",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which is an IaaS example?",
+      "options": [
+        "Virtual machines",
+        "Email inbox only",
+        "A source-code editor",
+        "A spreadsheet formula"
+      ],
+      "answer": "Virtual machines",
+      "skill": "Cloud Computing",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does SaaS provide?",
+      "options": [
+        "Ready-to-use software over the internet",
+        "Physical servers",
+        "Raw CPU chips",
+        "Network cables"
+      ],
+      "answer": "Ready-to-use software over the internet",
+      "skill": "Cloud Computing",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does PaaS primarily provide?",
+      "options": [
+        "A platform for developing and deploying applications",
+        "Only physical disks",
+        "A domain registrar",
+        "A keyboard"
+      ],
+      "answer": "A platform for developing and deploying applications",
+      "skill": "Cloud Computing",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is elasticity?",
+      "options": [
+        "Ability to scale resources with demand",
+        "Encrypting data",
+        "Changing passwords",
+        "Deleting servers"
+      ],
+      "answer": "Ability to scale resources with demand",
+      "skill": "Cloud Computing",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a region in a cloud provider?",
+      "options": [
+        "A geographic area containing cloud infrastructure",
+        "A user role",
+        "A database row",
+        "A programming module"
+      ],
+      "answer": "A geographic area containing cloud infrastructure",
+      "skill": "Cloud Computing",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is serverless computing?",
+      "options": [
+        "Running code without managing servers directly",
+        "Using no servers anywhere",
+        "A local desktop app",
+        "A network without IPs"
+      ],
+      "answer": "Running code without managing servers directly",
+      "skill": "Cloud Computing",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is an availability zone?",
+      "options": [
+        "An isolated infrastructure location within a region",
+        "A billing account",
+        "A DNS record",
+        "A programming language"
+      ],
+      "answer": "An isolated infrastructure location within a region",
+      "skill": "Cloud Computing",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is object storage suited for?",
+      "options": [
+        "Files and unstructured objects",
+        "CPU registers",
+        "Only SQL joins",
+        "Keyboard input"
+      ],
+      "answer": "Files and unstructured objects",
+      "skill": "Cloud Computing",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is autoscaling?",
+      "options": [
+        "Automatically adjusting resource capacity",
+        "Manually editing code",
+        "Encrypting backups",
+        "Changing regions by hand"
+      ],
+      "answer": "Automatically adjusting resource capacity",
+      "skill": "Cloud Computing",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does cloud IAM manage?",
+      "options": [
+        "Identities and access permissions",
+        "CPU temperature",
+        "HTML styles",
+        "Image pixels"
+      ],
+      "answer": "Identities and access permissions",
+      "skill": "Cloud Computing",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a cloud deployment model?",
+      "options": [
+        "A way to organize where/how cloud resources are provided",
+        "A Java class",
+        "A SQL query",
+        "A CSS layout"
+      ],
+      "answer": "A way to organize where/how cloud resources are provided",
+      "skill": "Cloud Computing",
+      "difficulty": "medium"
+    }
+  ],
+  "Machine Learning": [
+    {
+      "question": "What is supervised learning trained with?",
+      "options": [
+        "Labeled data",
+        "Only unlabeled data",
+        "No data",
+        "Encrypted passwords"
+      ],
+      "answer": "Labeled data",
+      "skill": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is classification?",
+      "options": [
+        "Predicting a discrete class",
+        "Predicting only images",
+        "Sorting files alphabetically",
+        "Compressing data"
+      ],
+      "answer": "Predicting a discrete class",
+      "skill": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is regression?",
+      "options": [
+        "Predicting a continuous value",
+        "Predicting only categories",
+        "Deleting outliers",
+        "Clustering labels"
+      ],
+      "answer": "Predicting a continuous value",
+      "skill": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why split data into training and test sets?",
+      "options": [
+        "To evaluate generalization on unseen data",
+        "To increase labels",
+        "To remove all errors",
+        "To avoid preprocessing"
+      ],
+      "answer": "To evaluate generalization on unseen data",
+      "skill": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is overfitting?",
+      "options": [
+        "Learning training patterns too specifically and performing poorly on new data",
+        "Underusing the dataset",
+        "Deleting the model",
+        "Normalizing labels"
+      ],
+      "answer": "Learning training patterns too specifically and performing poorly on new data",
+      "skill": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a feature?",
+      "options": [
+        "An input variable used by a model",
+        "The target only",
+        "A prediction result",
+        "A Python package"
+      ],
+      "answer": "An input variable used by a model",
+      "skill": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the target?",
+      "options": [
+        "The value the model is trained to predict",
+        "A random feature",
+        "A database password",
+        "A test index"
+      ],
+      "answer": "The value the model is trained to predict",
+      "skill": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does accuracy measure in classification?",
+      "options": [
+        "Fraction of correct predictions",
+        "Average training time",
+        "Number of features",
+        "Memory usage"
+      ],
+      "answer": "Fraction of correct predictions",
+      "skill": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a confusion matrix?",
+      "options": [
+        "A table of predicted versus actual classes",
+        "A regression equation",
+        "A feature scaler",
+        "A dataset loader"
+      ],
+      "answer": "A table of predicted versus actual classes",
+      "skill": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a decision tree?",
+      "options": [
+        "A model that makes predictions through feature-based splits",
+        "A database tree only",
+        "A neural network layer",
+        "A sorting algorithm only"
+      ],
+      "answer": "A model that makes predictions through feature-based splits",
+      "skill": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is cross-validation?",
+      "options": [
+        "Evaluating a model across multiple train/validation splits",
+        "Encrypting training data",
+        "Deleting test data",
+        "Combining all labels"
+      ],
+      "answer": "Evaluating a model across multiple train/validation splits",
+      "skill": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Why scale some features?",
+      "options": [
+        "To put numerical features on comparable scales for scale-sensitive models",
+        "To add labels",
+        "To increase rows",
+        "To remove the target"
+      ],
+      "answer": "To put numerical features on comparable scales for scale-sensitive models",
+      "skill": "Machine Learning",
+      "difficulty": "medium"
+    }
+  ],
+  "Deep Learning": [
+    {
+      "question": "Deep learning is based mainly on what?",
+      "options": [
+        "Multi-layer neural networks",
+        "SQL joins",
+        "CSS rules",
+        "Git branches"
+      ],
+      "answer": "Multi-layer neural networks",
+      "skill": "Deep Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a neuron in a neural network?",
+      "options": [
+        "A computational unit that combines inputs and applies an activation",
+        "A database row",
+        "A CPU core",
+        "A web request"
+      ],
+      "answer": "A computational unit that combines inputs and applies an activation",
+      "skill": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is an activation function for?",
+      "options": [
+        "Introducing nonlinear transformations",
+        "Storing data",
+        "Sorting labels",
+        "Connecting databases"
+      ],
+      "answer": "Introducing nonlinear transformations",
+      "skill": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does an epoch mean?",
+      "options": [
+        "One pass through the training dataset",
+        "One neuron",
+        "One test sample",
+        "One model file"
+      ],
+      "answer": "One pass through the training dataset",
+      "skill": "Deep Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is backpropagation?",
+      "options": [
+        "Computing gradients to update network parameters",
+        "Sending web requests backward",
+        "Saving checkpoints only",
+        "Normalizing images"
+      ],
+      "answer": "Computing gradients to update network parameters",
+      "skill": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a loss function?",
+      "options": [
+        "A measure of prediction error used during training",
+        "A data loader",
+        "A neural layer",
+        "A database table"
+      ],
+      "answer": "A measure of prediction error used during training",
+      "skill": "Deep Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does dropout help reduce?",
+      "options": [
+        "Overfitting",
+        "File size",
+        "Network latency",
+        "Dataset labels"
+      ],
+      "answer": "Overfitting",
+      "skill": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "CNNs are especially common for what?",
+      "options": [
+        "Image and spatial data",
+        "SQL queries",
+        "Git history",
+        "Audio cables"
+      ],
+      "answer": "Image and spatial data",
+      "skill": "Deep Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "RNNs are designed to handle what type of data?",
+      "options": [
+        "Sequential data",
+        "Only tabular keys",
+        "CSS styles",
+        "Database schemas"
+      ],
+      "answer": "Sequential data",
+      "skill": "Deep Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a batch?",
+      "options": [
+        "A subset of training examples processed together",
+        "A model class",
+        "A feature name",
+        "A database server"
+      ],
+      "answer": "A subset of training examples processed together",
+      "skill": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a learning rate?",
+      "options": [
+        "Step size used by an optimizer to update parameters",
+        "Number of layers",
+        "Dataset size",
+        "Prediction label"
+      ],
+      "answer": "Step size used by an optimizer to update parameters",
+      "skill": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does an optimizer do?",
+      "options": [
+        "Updates model parameters using gradients",
+        "Creates HTML",
+        "Loads SQL tables",
+        "Compresses images"
+      ],
+      "answer": "Updates model parameters using gradients",
+      "skill": "Deep Learning",
+      "difficulty": "easy"
+    }
+  ],
+  "Data Analysis": [
+    {
+      "question": "What is data analysis?",
+      "options": [
+        "Examining data to find patterns and insights",
+        "Encrypting files",
+        "Writing only HTML",
+        "Managing user passwords"
+      ],
+      "answer": "Examining data to find patterns and insights",
+      "skill": "Data Analysis",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which Python library is widely used for tabular data?",
+      "options": [
+        "Pandas",
+        "Flask",
+        "PyGame",
+        "Tkinter"
+      ],
+      "answer": "Pandas",
+      "skill": "Data Analysis",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does a DataFrame represent in Pandas?",
+      "options": [
+        "A two-dimensional labeled data structure",
+        "A neural network",
+        "A web page",
+        "A SQL server"
+      ],
+      "answer": "A two-dimensional labeled data structure",
+      "skill": "Data Analysis",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is missing-value handling?",
+      "options": [
+        "Dealing with absent data entries",
+        "Deleting all columns",
+        "Encrypting values",
+        "Sorting only"
+      ],
+      "answer": "Dealing with absent data entries",
+      "skill": "Data Analysis",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is an outlier?",
+      "options": [
+        "An unusually distant observation",
+        "A missing column",
+        "A target label",
+        "A chart title"
+      ],
+      "answer": "An unusually distant observation",
+      "skill": "Data Analysis",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why visualize data?",
+      "options": [
+        "To communicate patterns and relationships",
+        "To encrypt data",
+        "To replace all statistics",
+        "To increase CPU speed"
+      ],
+      "answer": "To communicate patterns and relationships",
+      "skill": "Data Analysis",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which library is commonly used for plotting in Python?",
+      "options": [
+        "Matplotlib",
+        "Requests",
+        "PyTest",
+        "Socket"
+      ],
+      "answer": "Matplotlib",
+      "skill": "Data Analysis",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is data cleaning?",
+      "options": [
+        "Correcting or handling quality issues in data",
+        "Building a neural network",
+        "Deploying a server",
+        "Creating a password"
+      ],
+      "answer": "Correcting or handling quality issues in data",
+      "skill": "Data Analysis",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does groupby in Pandas help with?",
+      "options": [
+        "Grouping data for aggregation",
+        "Encrypting columns",
+        "Rendering HTML",
+        "Connecting Wi-Fi"
+      ],
+      "answer": "Grouping data for aggregation",
+      "skill": "Data Analysis",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is correlation?",
+      "options": [
+        "A measure of association between variables",
+        "Proof of causation",
+        "A missing value",
+        "A database key"
+      ],
+      "answer": "A measure of association between variables",
+      "skill": "Data Analysis",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is exploratory data analysis (EDA)?",
+      "options": [
+        "Initial investigation using summaries and visualizations",
+        "Final deployment only",
+        "Password testing",
+        "SQL backup"
+      ],
+      "answer": "Initial investigation using summaries and visualizations",
+      "skill": "Data Analysis",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why define a clear question before analysis?",
+      "options": [
+        "To focus the analysis on a meaningful objective",
+        "To avoid using data",
+        "To remove all variables",
+        "To guarantee causation"
+      ],
+      "answer": "To focus the analysis on a meaningful objective",
+      "skill": "Data Analysis",
+      "difficulty": "medium"
+    }
+  ],
+  "Statistics": [
+    {
+      "question": "What is the mean?",
+      "options": [
+        "Sum divided by number of observations",
+        "Middle value always",
+        "Most frequent value",
+        "Largest value"
+      ],
+      "answer": "Sum divided by number of observations",
+      "skill": "Statistics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the median?",
+      "options": [
+        "Middle value after sorting",
+        "Average of extremes",
+        "Most frequent value",
+        "Smallest value"
+      ],
+      "answer": "Middle value after sorting",
+      "skill": "Statistics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the mode?",
+      "options": [
+        "Most frequent value",
+        "Middle value",
+        "Average",
+        "Range"
+      ],
+      "answer": "Most frequent value",
+      "skill": "Statistics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does standard deviation measure?",
+      "options": [
+        "Spread around the mean",
+        "Sample size only",
+        "Causation",
+        "Median"
+      ],
+      "answer": "Spread around the mean",
+      "skill": "Statistics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is variance?",
+      "options": [
+        "A measure related to squared deviations from the mean",
+        "The maximum value",
+        "The median",
+        "A category label"
+      ],
+      "answer": "A measure related to squared deviations from the mean",
+      "skill": "Statistics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a probability?",
+      "options": [
+        "A value representing likelihood",
+        "A guaranteed outcome",
+        "A sample mean",
+        "A chart type"
+      ],
+      "answer": "A value representing likelihood",
+      "skill": "Statistics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a sample?",
+      "options": [
+        "A subset of a population",
+        "The entire universe always",
+        "A variable name",
+        "A prediction"
+      ],
+      "answer": "A subset of a population",
+      "skill": "Statistics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a population?",
+      "options": [
+        "The full set of units of interest",
+        "Only the sample",
+        "A single observation",
+        "A statistic"
+      ],
+      "answer": "The full set of units of interest",
+      "skill": "Statistics",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does correlation near +1 suggest?",
+      "options": [
+        "Strong positive linear association",
+        "Strong negative association",
+        "No association necessarily",
+        "Causation"
+      ],
+      "answer": "Strong positive linear association",
+      "skill": "Statistics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a confidence interval?",
+      "options": [
+        "A range of plausible values for a population parameter under a method",
+        "A guaranteed range for every observation",
+        "A password range",
+        "A histogram"
+      ],
+      "answer": "A range of plausible values for a population parameter under a method",
+      "skill": "Statistics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a hypothesis test used for?",
+      "options": [
+        "Assessing evidence against a null hypothesis",
+        "Calculating only the mean",
+        "Sorting data",
+        "Cleaning strings"
+      ],
+      "answer": "Assessing evidence against a null hypothesis",
+      "skill": "Statistics",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a p-value in hypothesis testing?",
+      "options": [
+        "A probability measure used to assess evidence against the null under assumptions",
+        "The probability the null is true",
+        "The sample size",
+        "The effect size itself"
+      ],
+      "answer": "A probability measure used to assess evidence against the null under assumptions",
+      "skill": "Statistics",
+      "difficulty": "medium"
+    }
+  ],
+  "UI UX Design": [
+    {
+      "question": "What does UX stand for?",
+      "options": [
+        "User Experience",
+        "User Extension",
+        "Unified XML",
+        "User Execution"
+      ],
+      "answer": "User Experience",
+      "skill": "UI UX Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does UI stand for?",
+      "options": [
+        "User Interface",
+        "Universal Input",
+        "User Integration",
+        "Unified Interface"
+      ],
+      "answer": "User Interface",
+      "skill": "UI UX Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a wireframe?",
+      "options": [
+        "A basic layout representation",
+        "A final database",
+        "A CSS compiler",
+        "A server"
+      ],
+      "answer": "A basic layout representation",
+      "skill": "UI UX Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is usability?",
+      "options": [
+        "How easily users can accomplish tasks",
+        "How colorful a page is",
+        "Server speed only",
+        "Database size"
+      ],
+      "answer": "How easily users can accomplish tasks",
+      "skill": "UI UX Design",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Why use consistent navigation?",
+      "options": [
+        "To make interfaces predictable and easier to use",
+        "To hide content",
+        "To reduce HTML",
+        "To increase database rows"
+      ],
+      "answer": "To make interfaces predictable and easier to use",
+      "skill": "UI UX Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is user research?",
+      "options": [
+        "Studying users' needs and behaviors",
+        "Writing SQL queries",
+        "Compressing images",
+        "Deploying servers"
+      ],
+      "answer": "Studying users' needs and behaviors",
+      "skill": "UI UX Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a prototype?",
+      "options": [
+        "An interactive or visual representation used for testing ideas",
+        "A database backup",
+        "A final API",
+        "A password"
+      ],
+      "answer": "An interactive or visual representation used for testing ideas",
+      "skill": "UI UX Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is accessibility in design?",
+      "options": [
+        "Designing so people with diverse abilities can use the product",
+        "Using only large images",
+        "Making a site private",
+        "Removing keyboard support"
+      ],
+      "answer": "Designing so people with diverse abilities can use the product",
+      "skill": "UI UX Design",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is visual hierarchy?",
+      "options": [
+        "Using size, contrast, spacing and placement to guide attention",
+        "A database tree",
+        "A color file",
+        "A coding framework"
+      ],
+      "answer": "Using size, contrast, spacing and placement to guide attention",
+      "skill": "UI UX Design",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Why conduct usability testing?",
+      "options": [
+        "To observe users and identify problems",
+        "To guarantee profit",
+        "To compile CSS",
+        "To create SQL tables"
+      ],
+      "answer": "To observe users and identify problems",
+      "skill": "UI UX Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a persona?",
+      "options": [
+        "A research-based representation of a user type",
+        "A password",
+        "A server role",
+        "A database key"
+      ],
+      "answer": "A research-based representation of a user type",
+      "skill": "UI UX Design",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is responsive design?",
+      "options": [
+        "Designing interfaces that adapt to different screen sizes",
+        "Adding more database rows",
+        "Making passwords responsive",
+        "Using only mobile apps"
+      ],
+      "answer": "Designing interfaces that adapt to different screen sizes",
+      "skill": "UI UX Design",
+      "difficulty": "easy"
+    }
+  ],
+  "Figma": [
+    {
+      "question": "What is Figma primarily used for?",
+      "options": [
+        "Interface design and prototyping",
+        "Database administration",
+        "Python execution",
+        "Network routing"
+      ],
+      "answer": "Interface design and prototyping",
+      "skill": "Figma",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a frame in Figma?",
+      "options": [
+        "A container representing a screen or design area",
+        "A database row",
+        "A CSS rule",
+        "A code compiler"
+      ],
+      "answer": "A container representing a screen or design area",
+      "skill": "Figma",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What are components useful for?",
+      "options": [
+        "Reusable design elements",
+        "Encrypting files",
+        "Hosting websites",
+        "Running Python"
+      ],
+      "answer": "Reusable design elements",
+      "skill": "Figma",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is Auto Layout used for?",
+      "options": [
+        "Creating responsive layouts within frames",
+        "Writing SQL",
+        "Editing audio",
+        "Creating passwords"
+      ],
+      "answer": "Creating responsive layouts within frames",
+      "skill": "Figma",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a prototype connection?",
+      "options": [
+        "A link between screens/interactions",
+        "A database relation",
+        "A Git branch",
+        "A CSS import"
+      ],
+      "answer": "A link between screens/interactions",
+      "skill": "Figma",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What are constraints used for?",
+      "options": [
+        "Defining how objects respond to frame resizing",
+        "Encrypting layers",
+        "Writing HTML",
+        "Creating APIs"
+      ],
+      "answer": "Defining how objects respond to frame resizing",
+      "skill": "Figma",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a variant?",
+      "options": [
+        "A related version of a component",
+        "A database table",
+        "A browser extension",
+        "A font file"
+      ],
+      "answer": "A related version of a component",
+      "skill": "Figma",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a design system?",
+      "options": [
+        "Reusable standards, components and guidelines",
+        "A server OS",
+        "A database engine",
+        "A compiler"
+      ],
+      "answer": "Reusable standards, components and guidelines",
+      "skill": "Figma",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why use components?",
+      "options": [
+        "To maintain consistency and update repeated elements efficiently",
+        "To reduce internet speed",
+        "To replace prototypes",
+        "To store passwords"
+      ],
+      "answer": "To maintain consistency and update repeated elements efficiently",
+      "skill": "Figma",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does sharing a Figma file enable?",
+      "options": [
+        "Collaboration and review",
+        "Automatic database migration",
+        "Python execution",
+        "Server deployment"
+      ],
+      "answer": "Collaboration and review",
+      "skill": "Figma",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is an overlay in prototyping?",
+      "options": [
+        "A layer shown over another screen during an interaction",
+        "A CSS border",
+        "A database view",
+        "A Git commit"
+      ],
+      "answer": "A layer shown over another screen during an interaction",
+      "skill": "Figma",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does Dev Mode help with?",
+      "options": [
+        "Inspecting designs and developer handoff",
+        "Running SQL",
+        "Training ML",
+        "Managing DNS"
+      ],
+      "answer": "Inspecting designs and developer handoff",
+      "skill": "Figma",
+      "difficulty": "medium"
+    }
+  ],
+  "Computer Vision": [
+    {
+      "question": "What is computer vision?",
+      "options": [
+        "Extracting information from visual data",
+        "Managing databases",
+        "Writing CSS",
+        "Routing packets"
+      ],
+      "answer": "Extracting information from visual data",
+      "skill": "Computer Vision",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is an image pixel?",
+      "options": [
+        "A small picture element containing intensity/color information",
+        "A neural network",
+        "A file name",
+        "A camera lens"
+      ],
+      "answer": "A small picture element containing intensity/color information",
+      "skill": "Computer Vision",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is image classification?",
+      "options": [
+        "Assigning an image to a class",
+        "Finding exact object coordinates only",
+        "Compressing images",
+        "Changing image format"
+      ],
+      "answer": "Assigning an image to a class",
+      "skill": "Computer Vision",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is object detection?",
+      "options": [
+        "Finding and classifying objects with locations",
+        "Classifying a whole dataset only",
+        "Editing text",
+        "Generating SQL"
+      ],
+      "answer": "Finding and classifying objects with locations",
+      "skill": "Computer Vision",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is image segmentation?",
+      "options": [
+        "Assigning labels to image regions or pixels",
+        "Sorting images by filename",
+        "Removing all pixels",
+        "Creating a database"
+      ],
+      "answer": "Assigning labels to image regions or pixels",
+      "skill": "Computer Vision",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is OpenCV?",
+      "options": [
+        "An open-source computer vision library",
+        "A database engine",
+        "A cloud provider",
+        "A CSS framework"
+      ],
+      "answer": "An open-source computer vision library",
+      "skill": "Computer Vision",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why resize images before a model?",
+      "options": [
+        "To match expected dimensions and manage computation",
+        "To add labels automatically",
+        "To encrypt images",
+        "To create metadata"
+      ],
+      "answer": "To match expected dimensions and manage computation",
+      "skill": "Computer Vision",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a bounding box?",
+      "options": [
+        "A rectangle indicating an object's location",
+        "A database box",
+        "A color palette",
+        "A file format"
+      ],
+      "answer": "A rectangle indicating an object's location",
+      "skill": "Computer Vision",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is image augmentation?",
+      "options": [
+        "Creating varied training examples through transformations",
+        "Deleting images",
+        "Compressing all data to one file",
+        "Encrypting pixels"
+      ],
+      "answer": "Creating varied training examples through transformations",
+      "skill": "Computer Vision",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does grayscale conversion do?",
+      "options": [
+        "Represents intensity without separate color channels",
+        "Adds more RGB channels",
+        "Detects objects automatically",
+        "Encrypts images"
+      ],
+      "answer": "Represents intensity without separate color channels",
+      "skill": "Computer Vision",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is OCR?",
+      "options": [
+        "Optical Character Recognition",
+        "Object Color Rendering",
+        "Open Camera Routing",
+        "Optical Code Retrieval"
+      ],
+      "answer": "Optical Character Recognition",
+      "skill": "Computer Vision",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is edge detection used for?",
+      "options": [
+        "Finding strong intensity boundaries",
+        "Adding text",
+        "Training SQL models",
+        "Creating DNS records"
+      ],
+      "answer": "Finding strong intensity boundaries",
+      "skill": "Computer Vision",
+      "difficulty": "medium"
+    }
+  ],
+  "NLP": [
+    {
+      "question": "What does NLP stand for?",
+      "options": [
+        "Natural Language Processing",
+        "Neural Learning Protocol",
+        "Network Language Program",
+        "Natural Logic Parser"
+      ],
+      "answer": "Natural Language Processing",
+      "skill": "NLP",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is tokenization?",
+      "options": [
+        "Splitting text into smaller units such as words or subwords",
+        "Encrypting text",
+        "Sorting databases",
+        "Rendering HTML"
+      ],
+      "answer": "Splitting text into smaller units such as words or subwords",
+      "skill": "NLP",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is sentiment analysis?",
+      "options": [
+        "Determining opinion or emotional polarity in text",
+        "Counting pixels",
+        "Detecting network attacks",
+        "Sorting files"
+      ],
+      "answer": "Determining opinion or emotional polarity in text",
+      "skill": "NLP",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is stemming?",
+      "options": [
+        "Reducing words toward a stem using heuristic rules",
+        "Generating speech",
+        "Encrypting tokens",
+        "Parsing HTML"
+      ],
+      "answer": "Reducing words toward a stem using heuristic rules",
+      "skill": "NLP",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is lemmatization?",
+      "options": [
+        "Reducing a word to its dictionary base form using linguistic information",
+        "Deleting punctuation only",
+        "Generating SQL",
+        "Compressing audio"
+      ],
+      "answer": "Reducing a word to its dictionary base form using linguistic information",
+      "skill": "NLP",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is an embedding?",
+      "options": [
+        "A vector representation of text or other data",
+        "A database password",
+        "An HTML tag",
+        "A network packet"
+      ],
+      "answer": "A vector representation of text or other data",
+      "skill": "NLP",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is named entity recognition?",
+      "options": [
+        "Identifying entities such as people, places or organizations",
+        "Recognizing images",
+        "Encrypting names",
+        "Creating databases"
+      ],
+      "answer": "Identifying entities such as people, places or organizations",
+      "skill": "NLP",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a stop word?",
+      "options": [
+        "A common word sometimes removed in text preprocessing",
+        "A network command",
+        "A password",
+        "A model target"
+      ],
+      "answer": "A common word sometimes removed in text preprocessing",
+      "skill": "NLP",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is text classification?",
+      "options": [
+        "Assigning text to predefined categories",
+        "Rendering a web page",
+        "Compressing text only",
+        "Generating random words"
+      ],
+      "answer": "Assigning text to predefined categories",
+      "skill": "NLP",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a language model?",
+      "options": [
+        "A model that learns patterns in language",
+        "A compiler for Java",
+        "A network router",
+        "A database schema"
+      ],
+      "answer": "A model that learns patterns in language",
+      "skill": "NLP",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is TF-IDF used for?",
+      "options": [
+        "Representing term importance in documents",
+        "Encrypting files",
+        "Drawing images",
+        "Routing packets"
+      ],
+      "answer": "Representing term importance in documents",
+      "skill": "NLP",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a transformer?",
+      "options": [
+        "A neural architecture using attention mechanisms",
+        "A database table",
+        "A CSS component",
+        "A network cable"
+      ],
+      "answer": "A neural architecture using attention mechanisms",
+      "skill": "NLP",
+      "difficulty": "medium"
+    }
+  ],
+  "Communication": [
+    {
+      "question": "What is active listening?",
+      "options": [
+        "Paying attention and showing understanding",
+        "Interrupting frequently",
+        "Ignoring feedback",
+        "Reading only messages"
+      ],
+      "answer": "Paying attention and showing understanding",
+      "skill": "Communication",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which is important in professional communication?",
+      "options": [
+        "Clarity",
+        "Ambiguity",
+        "Unnecessary jargon",
+        "Ignoring the audience"
+      ],
+      "answer": "Clarity",
+      "skill": "Communication",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is feedback?",
+      "options": [
+        "Information about performance or understanding",
+        "A password",
+        "A database index",
+        "A code compiler"
+      ],
+      "answer": "Information about performance or understanding",
+      "skill": "Communication",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does non-verbal communication include?",
+      "options": [
+        "Body language and facial expressions",
+        "Only emails",
+        "SQL queries",
+        "Source code"
+      ],
+      "answer": "Body language and facial expressions",
+      "skill": "Communication",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why consider the audience?",
+      "options": [
+        "To tailor language and detail appropriately",
+        "To make messages longer",
+        "To avoid clarity",
+        "To remove context"
+      ],
+      "answer": "To tailor language and detail appropriately",
+      "skill": "Communication",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is constructive feedback?",
+      "options": [
+        "Specific feedback focused on improvement",
+        "Personal insults",
+        "Only praise",
+        "Unrelated criticism"
+      ],
+      "answer": "Specific feedback focused on improvement",
+      "skill": "Communication",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is concise communication?",
+      "options": [
+        "Expressing the needed message without unnecessary detail",
+        "Using as many words as possible",
+        "Removing all context",
+        "Using only abbreviations"
+      ],
+      "answer": "Expressing the needed message without unnecessary detail",
+      "skill": "Communication",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why confirm understanding?",
+      "options": [
+        "To reduce misunderstandings",
+        "To increase confusion",
+        "To avoid listening",
+        "To delay every decision"
+      ],
+      "answer": "To reduce misunderstandings",
+      "skill": "Communication",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is empathy in communication?",
+      "options": [
+        "Understanding another person's perspective or feelings",
+        "Agreeing with everything",
+        "Avoiding people",
+        "Speaking louder"
+      ],
+      "answer": "Understanding another person's perspective or feelings",
+      "skill": "Communication",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is professional email etiquette?",
+      "options": [
+        "Clear subject, appropriate tone and concise content",
+        "All caps everywhere",
+        "No greeting ever",
+        "Unrelated attachments"
+      ],
+      "answer": "Clear subject, appropriate tone and concise content",
+      "skill": "Communication",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is paraphrasing in listening?",
+      "options": [
+        "Restating a message in your own words to confirm meaning",
+        "Changing the topic",
+        "Ignoring the speaker",
+        "Repeating every word"
+      ],
+      "answer": "Restating a message in your own words to confirm meaning",
+      "skill": "Communication",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Why ask open-ended questions?",
+      "options": [
+        "They encourage fuller responses",
+        "They always require yes/no",
+        "They prevent discussion",
+        "They hide context"
+      ],
+      "answer": "They encourage fuller responses",
+      "skill": "Communication",
+      "difficulty": "easy"
+    }
+  ],
+  "Problem Solving": [
+    {
+      "question": "What is the first useful step in solving a problem?",
+      "options": [
+        "Define the problem clearly",
+        "Guess the answer",
+        "Ignore constraints",
+        "Write random code"
+      ],
+      "answer": "Define the problem clearly",
+      "skill": "Problem Solving",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is decomposition?",
+      "options": [
+        "Breaking a complex problem into smaller parts",
+        "Deleting requirements",
+        "Combining all tasks",
+        "Avoiding testing"
+      ],
+      "answer": "Breaking a complex problem into smaller parts",
+      "skill": "Problem Solving",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is an algorithm?",
+      "options": [
+        "A step-by-step procedure for solving a problem",
+        "A database only",
+        "A UI color",
+        "A password"
+      ],
+      "answer": "A step-by-step procedure for solving a problem",
+      "skill": "Problem Solving",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why identify constraints?",
+      "options": [
+        "They define limits the solution must satisfy",
+        "They guarantee one answer",
+        "They replace testing",
+        "They remove requirements"
+      ],
+      "answer": "They define limits the solution must satisfy",
+      "skill": "Problem Solving",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is debugging?",
+      "options": [
+        "Finding and fixing defects in a program",
+        "Designing a logo",
+        "Creating a database only",
+        "Writing documentation only"
+      ],
+      "answer": "Finding and fixing defects in a program",
+      "skill": "Problem Solving",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is root-cause analysis?",
+      "options": [
+        "Finding the underlying reason for a problem",
+        "Fixing symptoms only",
+        "Writing more code blindly",
+        "Ignoring evidence"
+      ],
+      "answer": "Finding the underlying reason for a problem",
+      "skill": "Problem Solving",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is pseudocode useful for?",
+      "options": [
+        "Planning logic in readable steps before coding",
+        "Running programs directly",
+        "Encrypting code",
+        "Compiling Java"
+      ],
+      "answer": "Planning logic in readable steps before coding",
+      "skill": "Problem Solving",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why test edge cases?",
+      "options": [
+        "To check behavior at unusual or boundary inputs",
+        "To avoid validation",
+        "To reduce correctness",
+        "To remove requirements"
+      ],
+      "answer": "To check behavior at unusual or boundary inputs",
+      "skill": "Problem Solving",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is trade-off analysis?",
+      "options": [
+        "Comparing benefits and costs of alternatives",
+        "Choosing randomly",
+        "Avoiding constraints",
+        "Deleting options"
+      ],
+      "answer": "Comparing benefits and costs of alternatives",
+      "skill": "Problem Solving",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a hypothesis in problem solving?",
+      "options": [
+        "A testable possible explanation or solution",
+        "A guaranteed fact",
+        "A database key",
+        "A final result always"
+      ],
+      "answer": "A testable possible explanation or solution",
+      "skill": "Problem Solving",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is iterative problem solving?",
+      "options": [
+        "Improving a solution through repeated testing and refinement",
+        "Solving once without feedback",
+        "Avoiding measurement",
+        "Changing goals randomly"
+      ],
+      "answer": "Improving a solution through repeated testing and refinement",
+      "skill": "Problem Solving",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Why reproduce a bug?",
+      "options": [
+        "To understand and verify the failure consistently",
+        "To hide it",
+        "To increase code size",
+        "To skip testing"
+      ],
+      "answer": "To understand and verify the failure consistently",
+      "skill": "Problem Solving",
+      "difficulty": "easy"
+    }
+  ],
+  "System Design": [
+    {
+      "question": "What is system design?",
+      "options": [
+        "Planning components and interactions of a software system",
+        "Writing only CSS",
+        "Choosing a password",
+        "Editing images"
+      ],
+      "answer": "Planning components and interactions of a software system",
+      "skill": "System Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is scalability?",
+      "options": [
+        "Ability to handle increasing load by adding or improving resources",
+        "Reducing all users",
+        "Deleting servers",
+        "Changing UI colors"
+      ],
+      "answer": "Ability to handle increasing load by adding or improving resources",
+      "skill": "System Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a load balancer?",
+      "options": [
+        "Distributes traffic across servers",
+        "Stores passwords",
+        "Compiles code",
+        "Creates CSS"
+      ],
+      "answer": "Distributes traffic across servers",
+      "skill": "System Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is caching?",
+      "options": [
+        "Storing frequently used data for faster access",
+        "Deleting data",
+        "Encrypting all traffic",
+        "Creating users"
+      ],
+      "answer": "Storing frequently used data for faster access",
+      "skill": "System Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a database index used for?",
+      "options": [
+        "Speeding suitable data lookups",
+        "Replacing the database",
+        "Encrypting rows",
+        "Increasing CPU cores"
+      ],
+      "answer": "Speeding suitable data lookups",
+      "skill": "System Design",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is horizontal scaling?",
+      "options": [
+        "Adding more instances or machines",
+        "Making one machine larger only",
+        "Deleting instances",
+        "Reducing memory"
+      ],
+      "answer": "Adding more instances or machines",
+      "skill": "System Design",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is vertical scaling?",
+      "options": [
+        "Increasing resources of an existing machine",
+        "Adding many machines",
+        "Changing a domain",
+        "Splitting users"
+      ],
+      "answer": "Increasing resources of an existing machine",
+      "skill": "System Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is an API?",
+      "options": [
+        "An interface through which software components communicate",
+        "A database table",
+        "A CSS file",
+        "A server rack"
+      ],
+      "answer": "An interface through which software components communicate",
+      "skill": "System Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does availability mean?",
+      "options": [
+        "The system is accessible and operational when needed",
+        "The system is always cheap",
+        "All data is public",
+        "No backups exist"
+      ],
+      "answer": "The system is accessible and operational when needed",
+      "skill": "System Design",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a bottleneck?",
+      "options": [
+        "A component limiting overall system performance",
+        "A security password",
+        "A UI button",
+        "A database record"
+      ],
+      "answer": "A component limiting overall system performance",
+      "skill": "System Design",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is redundancy?",
+      "options": [
+        "Having additional components/resources to improve resilience",
+        "Removing backups",
+        "Using one server only",
+        "Deleting data"
+      ],
+      "answer": "Having additional components/resources to improve resilience",
+      "skill": "System Design",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a message queue useful for?",
+      "options": [
+        "Asynchronous communication between components",
+        "Styling pages",
+        "Password hashing",
+        "Image cropping"
+      ],
+      "answer": "Asynchronous communication between components",
+      "skill": "System Design",
+      "difficulty": "medium"
+    }
+  ]
+}

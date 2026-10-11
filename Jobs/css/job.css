@@ -1,0 +1,503 @@
+:root {
+    --green: #159447;
+    --dark-green: #08783a;
+    --deep-green: #075d30;
+    --light-green: #eaf8ef;
+    --mint: #f5fbf7;
+    --white: #ffffff;
+    --text: #173323;
+    --muted: #718078;
+    --border: #dcebe1;
+    --soft-border: #e8f1eb;
+    --shadow: 0 18px 50px rgba(15, 90, 46, 0.09);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    color: var(--text);
+    background: #ffffff;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: min(1120px, 90%);
+    margin: 0 auto;
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero-area {
+    position: relative;
+    min-height: 385px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 82% 25%, rgba(21, 148, 71, 0.18), transparent 30%),
+        linear-gradient(135deg, #f2fbf5 0%, #ffffff 65%);
+    border-bottom: 1px solid var(--border);
+}
+
+.hero-area::after {
+    content: "";
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    border: 1px solid rgba(21, 148, 71, 0.10);
+    border-radius: 50%;
+    right: -110px;
+    bottom: -170px;
+}
+
+.hero-overlay {
+    display: none;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 65px 0;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 30px;
+    color: #7d8b83;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    color: var(--green);
+}
+
+.breadcrumb a:hover {
+    color: var(--dark-green);
+}
+
+.breadcrumb span {
+    color: #b2bdb6;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 12px;
+    border-radius: 7px;
+    background: var(--light-green);
+    color: var(--dark-green);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 14px;
+}
+
+.hero-content h1 {
+    font-size: clamp(42px, 6vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -2.5px;
+    margin-bottom: 15px;
+}
+
+.hero-content h1::first-letter {
+    color: var(--green);
+}
+
+.hero-content > p {
+    max-width: 680px;
+    color: var(--muted);
+    font-size: 16px;
+}
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.section {
+    padding: 75px 0 90px;
+    background: #ffffff;
+}
+
+.career-card {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+/* =========================================================
+   CONTENT SECTIONS
+   ========================================================= */
+
+.content-section {
+    padding: 48px 55px;
+    border-bottom: 1px solid var(--soft-border);
+}
+
+.content-section:last-child {
+    border-bottom: 0;
+}
+
+.content-section:nth-child(even) {
+    background: #fcfefc;
+}
+
+.section-label {
+    display: inline-block;
+    color: var(--green);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    margin-bottom: 8px;
+}
+
+.content-section h2 {
+    font-size: 29px;
+    line-height: 1.25;
+    letter-spacing: -0.8px;
+    margin-bottom: 18px;
+}
+
+.content-section > p {
+    max-width: 920px;
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.content-section > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* =========================================================
+   TECHNICAL SKILLS
+   ========================================================= */
+
+.highlight-section {
+    background:
+        linear-gradient(135deg, #f7fcf8 0%, #ffffff 100%) !important;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.skill-card {
+    padding: 23px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: #ffffff;
+    transition: 0.25s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    border-color: #afd7bc;
+    box-shadow: 0 12px 30px rgba(15, 90, 46, 0.08);
+}
+
+.skill-card h3 {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.skill-card p {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.65;
+    margin-bottom: 15px;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.skill-tags span,
+.modern-skill-list span {
+    display: inline-flex;
+    padding: 5px 9px;
+    border-radius: 6px;
+    background: var(--light-green);
+    color: var(--dark-green);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.modern-skills {
+    margin-top: 30px;
+    padding: 22px 24px;
+    border-radius: 13px;
+    background: #eef9f1;
+    border: 1px solid #d6ecdc;
+}
+
+.modern-skills h3 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.modern-skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.modern-skill-list span {
+    background: #ffffff;
+    border: 1px solid #d5e9da;
+}
+
+/* =========================================================
+   RESPONSIBILITIES
+   ========================================================= */
+
+.responsibility-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 11px 25px;
+    margin-top: 25px;
+}
+
+.responsibility-list li {
+    position: relative;
+    padding: 13px 16px 13px 40px;
+    background: var(--mint);
+    border: 1px solid var(--soft-border);
+    border-radius: 9px;
+    color: #53635a;
+    font-size: 13px;
+}
+
+.responsibility-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    width: 17px;
+    height: 17px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--green);
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+/* =========================================================
+   SALARY
+   ========================================================= */
+
+.salary-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 27px;
+}
+
+.salary-card > div {
+    padding: 23px;
+    text-align: center;
+    border-radius: 13px;
+    background: var(--light-green);
+    border: 1px solid #d4ebda;
+}
+
+.salary-card span {
+    display: block;
+    color: #6f8176;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.salary-card strong {
+    display: block;
+    color: var(--deep-green);
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* =========================================================
+   COMPANY GRID
+   ========================================================= */
+
+.company-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 27px;
+}
+
+.company-grid div {
+    min-height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: white;
+    color: #415148;
+    font-size: 12px;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.company-grid div:hover {
+    color: var(--dark-green);
+    border-color: #add6ba;
+    background: var(--light-green);
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+    padding: 30px 0;
+    border-top: 1px solid var(--border);
+    background: #fbfdfb;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer p {
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer span {
+    color: #89968e;
+    font-size: 11px;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .company-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .content-section {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: 90%;
+    }
+
+    .hero-area {
+        min-height: 330px;
+    }
+
+    .hero-content {
+        padding: 50px 0;
+    }
+
+    .breadcrumb {
+        flex-wrap: wrap;
+        margin-bottom: 23px;
+    }
+
+    .hero-content h1 {
+        font-size: 43px;
+        letter-spacing: -1.8px;
+    }
+
+    .hero-content > p {
+        font-size: 14px;
+    }
+
+    .section {
+        padding: 45px 0 60px;
+    }
+
+    .career-card {
+        border-radius: 15px;
+    }
+
+    .content-section {
+        padding: 32px 24px;
+    }
+
+    .content-section h2 {
+        font-size: 25px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .responsibility-list {
+        grid-template-columns: 1fr;
+    }
+
+    .salary-card {
+        grid-template-columns: 1fr;
+    }
+
+    .company-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 420px) {
+    .company-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .content-section {
+        padding: 28px 19px;
+    }
+}

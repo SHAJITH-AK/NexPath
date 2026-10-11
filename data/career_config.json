@@ -1,0 +1,364 @@
+{
+  "_about": "Editable career -> skill targets. 'skills' = relevant skills with a target score out of 10. Targets were first generated from the dataset's per-career averages (python/generate_career_config.py); edit freely.",
+  "strong_margin": 1,
+  "skill_order": [
+    "Communication",
+    "Problem Solving",
+    "Python",
+    "Java",
+    "C++",
+    "Git",
+    "Linux",
+    "Networking",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "SQL",
+    "MongoDB",
+    "Statistics",
+    "Data Analysis",
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "NLP",
+    "Cloud Computing",
+    "Cyber Security",
+    "UI UX Design",
+    "Figma",
+    "System Design"
+  ],
+  "skill_courses": {
+    "Python": {
+      "course": "python programming",
+      "title": "Python Programming",
+      "closest": false
+    },
+    "Java": {
+      "course": "java programming",
+      "title": "Java Programming",
+      "closest": false
+    },
+    "C++": {
+      "course": "c++ programming",
+      "title": "C++ Programming",
+      "closest": false
+    },
+    "HTML": {
+      "course": "html css responsive web design",
+      "title": "Responsive Web Design",
+      "closest": false
+    },
+    "CSS": {
+      "course": "html css responsive web design",
+      "title": "Responsive Web Design",
+      "closest": false
+    },
+    "JavaScript": {
+      "course": "javascript",
+      "title": "JavaScript",
+      "closest": false
+    },
+    "React": {
+      "course": "full stack development",
+      "title": "Full-Stack Web Development",
+      "closest": true
+    },
+    "SQL": {
+      "course": "sql relational database",
+      "title": "SQL & Relational Databases",
+      "closest": false
+    },
+    "MongoDB": {
+      "course": "mongodb database",
+      "title": "MongoDB Fundamentals",
+      "closest": false
+    },
+    "Git": {
+      "course": "git github version control",
+      "title": "Git & GitHub",
+      "closest": false
+    },
+    "Linux": {
+      "course": "devops docker kubernetes",
+      "title": "DevOps & Containers",
+      "closest": true
+    },
+    "Networking": {
+      "course": "ethical hacking",
+      "title": "Ethical Hacking Foundations",
+      "closest": true
+    },
+    "Cyber Security": {
+      "course": "cybersecurity",
+      "title": "Cybersecurity Fundamentals",
+      "closest": false
+    },
+    "Cloud Computing": {
+      "course": "aws cloud",
+      "title": "AWS Cloud Foundations",
+      "closest": false
+    },
+    "Machine Learning": {
+      "course": "machine learning",
+      "title": "Machine Learning",
+      "closest": false
+    },
+    "Deep Learning": {
+      "course": "machine learning",
+      "title": "Machine Learning",
+      "closest": true
+    },
+    "Data Analysis": {
+      "course": "data analysis pandas python",
+      "title": "Data Analysis with Python",
+      "closest": false
+    },
+    "Statistics": {
+      "course": "data analysis pandas python",
+      "title": "Data Analysis with Python",
+      "closest": true
+    },
+    "UI UX Design": {
+      "course": "ui ux design",
+      "title": "UI/UX Design",
+      "closest": false
+    },
+    "Figma": {
+      "course": "ui ux design",
+      "title": "UI/UX Design",
+      "closest": false
+    },
+    "Computer Vision": {
+      "course": "machine learning",
+      "title": "Machine Learning",
+      "closest": true
+    },
+    "NLP": {
+      "course": "generative ai artificial intelligence",
+      "title": "Generative AI Fundamentals",
+      "closest": true
+    },
+    "System Design": {
+      "course": "full stack development",
+      "title": "Full-Stack Web Development",
+      "closest": true
+    }
+  },
+  "skill_links": {
+    "Communication": {
+      "link": "aptitude.php",
+      "title": "Verbal Ability practice (NexPath Aptitude Test)"
+    },
+    "Problem Solving": {
+      "link": "aptitude.php",
+      "title": "Logical Reasoning practice (NexPath Aptitude Test)"
+    }
+  },
+  "careers": {
+    "Backend Developer": {
+      "description": "Builds the server-side logic, APIs and databases that power web and mobile applications.",
+      "job_page": "Jobs/backend-developer.html",
+      "skills": {
+        "Python": 9,
+        "Java": 8,
+        "C++": 8,
+        "Git": 8,
+        "SQL": 9,
+        "MongoDB": 6
+      }
+    },
+    "Cloud Engineer": {
+      "description": "Designs, deploys and maintains applications and infrastructure on cloud platforms such as AWS or Google Cloud.",
+      "job_page": "Jobs/cloud-engineer.html",
+      "skills": {
+        "Python": 7,
+        "Git": 8,
+        "Linux": 9,
+        "Networking": 7,
+        "Cloud Computing": 9,
+        "System Design": 9
+      }
+    },
+    "Computer Vision Engineer": {
+      "description": "Builds systems that understand images and video, for example face detection, object recognition and medical imaging.",
+      "job_page": "Jobs/computer-vision-engineer.html",
+      "skills": {
+        "Python": 8,
+        "C++": 7,
+        "Statistics": 7,
+        "Machine Learning": 9,
+        "Deep Learning": 9,
+        "Computer Vision": 9
+      }
+    },
+    "Cyber Security Engineer": {
+      "description": "Protects systems, networks and data by finding vulnerabilities, monitoring threats and responding to incidents.",
+      "job_page": "Jobs/cyber-security-engineer.html",
+      "skills": {
+        "Problem Solving": 9,
+        "Linux": 9,
+        "Networking": 9,
+        "Cloud Computing": 6,
+        "Cyber Security": 10,
+        "System Design": 7
+      }
+    },
+    "Data Analyst": {
+      "description": "Collects, cleans and analyses data to find patterns, then presents insights through reports and dashboards that help businesses decide.",
+      "job_page": "Jobs/data-analyst.html",
+      "skills": {
+        "Communication": 7,
+        "Problem Solving": 9,
+        "SQL": 9,
+        "Statistics": 9,
+        "Data Analysis": 9,
+        "Machine Learning": 6
+      }
+    },
+    "Data Engineer": {
+      "description": "Builds and maintains the data pipelines and storage systems that make clean, reliable data available to analysts and data scientists.",
+      "job_page": "Jobs/data-engineer.html",
+      "skills": {
+        "Linux": 7,
+        "SQL": 9,
+        "MongoDB": 7,
+        "Data Analysis": 7,
+        "Cloud Computing": 8,
+        "System Design": 8
+      }
+    },
+    "Data Scientist": {
+      "description": "Uses statistics and machine learning to build models that explain data and predict outcomes.",
+      "job_page": "Jobs/data-scientist.html",
+      "skills": {
+        "Python": 8,
+        "SQL": 7,
+        "Statistics": 10,
+        "Data Analysis": 9,
+        "Machine Learning": 10,
+        "Deep Learning": 8
+      }
+    },
+    "Database Engineer": {
+      "description": "Designs, optimises and secures databases, and makes sure data is stored reliably and can be queried quickly.",
+      "job_page": "Jobs/database-engineer.html",
+      "skills": {
+        "Problem Solving": 8,
+        "Python": 6,
+        "Git": 7,
+        "SQL": 10,
+        "MongoDB": 9,
+        "System Design": 8
+      }
+    },
+    "DevOps Engineer": {
+      "description": "Connects development and operations by automating builds, deployments and infrastructure so software ships reliably.",
+      "job_page": "Jobs/devops-engineer.html",
+      "skills": {
+        "Python": 7,
+        "Git": 9,
+        "Linux": 9,
+        "Networking": 7,
+        "Cloud Computing": 9,
+        "System Design": 9
+      }
+    },
+    "Frontend Developer": {
+      "description": "Builds the visual, interactive part of websites and web apps that users see and use in the browser.",
+      "job_page": "Jobs/frontend-developer.html",
+      "skills": {
+        "Communication": 6,
+        "Git": 8,
+        "HTML": 10,
+        "CSS": 9,
+        "JavaScript": 10,
+        "React": 9
+      }
+    },
+    "Full Stack Developer": {
+      "description": "Works on both the user interface and the server side of an application, from the database to the browser.",
+      "job_page": "Jobs/full-stack-developer.html",
+      "skills": {
+        "HTML": 9,
+        "CSS": 8,
+        "JavaScript": 9,
+        "React": 8,
+        "SQL": 8,
+        "System Design": 8
+      }
+    },
+    "Generative AI Engineer": {
+      "description": "Builds applications on top of large language models and other generative AI systems.",
+      "job_page": "Jobs/generative-ai-engineer.html",
+      "skills": {
+        "Python": 9,
+        "Statistics": 7,
+        "Data Analysis": 7,
+        "Machine Learning": 9,
+        "Deep Learning": 10,
+        "NLP": 9
+      }
+    },
+    "ML Specialist": {
+      "description": "Trains, evaluates and deploys machine learning models to solve practical prediction and classification problems.",
+      "job_page": "Jobs/Ml_Specialists.html",
+      "skills": {
+        "Python": 9,
+        "Statistics": 9,
+        "Data Analysis": 8,
+        "Machine Learning": 9,
+        "Deep Learning": 8,
+        "NLP": 7
+      }
+    },
+    "NLP Engineer": {
+      "description": "Builds systems that understand and generate human language, such as chatbots, search and text analysis tools.",
+      "job_page": "Jobs/nlp-engineer.html",
+      "skills": {
+        "Python": 8,
+        "Statistics": 8,
+        "Data Analysis": 6,
+        "Machine Learning": 9,
+        "Deep Learning": 9,
+        "NLP": 10
+      }
+    },
+    "Network Engineer": {
+      "description": "Plans, configures and troubleshoots computer networks so that systems can communicate securely and reliably.",
+      "job_page": "Jobs/network-engineer.html",
+      "skills": {
+        "Problem Solving": 7,
+        "Git": 6,
+        "Linux": 7,
+        "Networking": 9,
+        "Cloud Computing": 6,
+        "Cyber Security": 7
+      }
+    },
+    "Software Engineer": {
+      "description": "Designs, writes, tests and maintains software, applying core programming, problem solving and system design skills.",
+      "job_page": "Jobs/software-engineer.html",
+      "skills": {
+        "Python": 8,
+        "Java": 8,
+        "C++": 9,
+        "Git": 8,
+        "JavaScript": 6,
+        "System Design": 9
+      }
+    },
+    "UI UX Designer": {
+      "description": "Designs how digital products look and feel, using user research, wireframes and prototypes to make them easy to use.",
+      "job_page": "Jobs/ui-ux-designer.html",
+      "skills": {
+        "Communication": 8,
+        "Problem Solving": 7,
+        "CSS": 8,
+        "JavaScript": 6,
+        "UI UX Design": 10,
+        "Figma": 9
+      }
+    }
+  }
+}

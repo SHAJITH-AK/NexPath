@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexPath | Explore Jobs</title>
+    <link rel="stylesheet" href="css/jobs.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="index.php" class="logo">
+            <span class="logo-mark">N</span>
+            <span>Nex<span>Path</span></span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="main.php">Home</a>
+            <a href="prediction.php">Prediction</a>
+            <a href="jobs.html" class="active">Jobs</a>
+            <a href="courses.html">Courses</a>
+            <a href="aptitude.php">Aptitude Test</a>
+            <a href="progress.php">Progress</a>
+            <a href="about.html">About</a>
+            <a href="contact.php">Contact</a>
+        </nav>
+
+        <a href="logout.php" class="logout-btn">Log out</a>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-inner">
+            <span class="eyebrow">CAREER OPPORTUNITIES</span>
+            <h1>Explore jobs that<br><span>match your path.</span></h1>
+            <p>
+                Discover popular technology roles, understand what each role
+                involves, and find the skills you need to move closer to your goal.
+            </p>
+
+            <div class="search-box">
+                <span class="search-icon">⌕</span>
+                <input type="text" id="jobSearch" placeholder="Search for a job role...">
+                <span class="job-count" id="jobCount">17 roles</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Explorer -->
+    <main class="jobs-section">
+
+        <div class="section-top">
+            <div>
+                <span class="eyebrow">JOB DIRECTORY</span>
+                <h2>Find your next opportunity</h2>
+            </div>
+            <p class="section-note">Select a role to learn more about it.</p>
+        </div>
+
+        <div class="category-row">
+            <button class="filter active" data-filter="all">All Jobs</button>
+            <button class="filter" data-filter="development">Development</button>
+            <button class="filter" data-filter="data">Data & AI</button>
+            <button class="filter" data-filter="cloud">Cloud & DevOps</button>
+            <button class="filter" data-filter="security">Cyber Security</button>
+            <button class="filter" data-filter="design">Design</button>
+            <button class="filter" data-filter="network">Networking</button>
+        </div>
+
+        <div class="jobs-grid" id="jobsGrid">
+
+            <a href="Jobs/backend-developer.html" class="job-card" data-category="development" data-name="backend developer">
+                <div class="job-icon">⌘</div>
+                <div class="job-content">
+                    <span class="job-category">DEVELOPMENT</span>
+                    <h3>Backend Developer</h3>
+                    <p>Build the server-side logic, APIs and databases that power modern applications.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/cloud-engineer.html" class="job-card" data-category="cloud" data-name="cloud engineer">
+                <div class="job-icon">☁</div>
+                <div class="job-content">
+                    <span class="job-category">CLOUD & DEVOPS</span>
+                    <h3>Cloud Engineer</h3>
+                    <p>Design, deploy and maintain scalable applications and infrastructure in the cloud.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/computer-vision-engineer.html" class="job-card" data-category="data" data-name="computer vision engineer">
+                <div class="job-icon">◉</div>
+                <div class="job-content">
+                    <span class="job-category">DATA & AI</span>
+                    <h3>Computer Vision Engineer</h3>
+                    <p>Create systems that help computers understand images, video and visual information.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/cyber-security-engineer.html" class="job-card" data-category="security" data-name="cyber security engineer">
+                <div class="job-icon">◇</div>
+                <div class="job-content">
+                    <span class="job-category">CYBER SECURITY</span>
+                    <h3>Cyber Security Engineer</h3>
+                    <p>Protect applications, networks and systems against security threats and attacks.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/data-analyst.html" class="job-card" data-category="data" data-name="data analyst">
+                <div class="job-icon">▥</div>
+                <div class="job-content">
+                    <span class="job-category">DATA & AI</span>
+                    <h3>Data Analyst</h3>
+                    <p>Turn raw data into useful insights through analysis, visualization and reporting.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/database-engineer.html" class="job-card" data-category="development" data-name="database engineer">
+                <div class="job-icon">▤</div>
+                <div class="job-content">
+                    <span class="job-category">DEVELOPMENT</span>
+                    <h3>Database Engineer</h3>
+                    <p>Design, optimize and maintain reliable databases for applications and organizations.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/data-engineer.html" class="job-card" data-category="data" data-name="data engineer">
+                <div class="job-icon">◫</div>
+                <div class="job-content">
+                    <span class="job-category">DATA & AI</span>
+                    <h3>Data Engineer</h3>
+                    <p>Build data pipelines and systems that make information ready for analysis and AI.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/data-scientist.html" class="job-card" data-category="data" data-name="data scientist">
+                <div class="job-icon">✦</div>
+                <div class="job-content">
+                    <span class="job-category">DATA & AI</span>
+                    <h3>Data Scientist</h3>
+                    <p>Use statistics, programming and machine learning to discover patterns and predict outcomes.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/devops-engineer.html" class="job-card" data-category="cloud" data-name="devops engineer">
+                <div class="job-icon">⇄</div>
+                <div class="job-content">
+                    <span class="job-category">CLOUD & DEVOPS</span>
+                    <h3>DevOps Engineer</h3>
+                    <p>Automate development and deployment workflows while keeping systems reliable and scalable.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/frontend-developer.html" class="job-card" data-category="development" data-name="frontend developer">
+                <div class="job-icon">▱</div>
+                <div class="job-content">
+                    <span class="job-category">DEVELOPMENT</span>
+                    <h3>Frontend Developer</h3>
+                    <p>Create responsive, interactive and accessible interfaces for websites and applications.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/full-stack-developer.html" class="job-card" data-category="development" data-name="full stack developer">
+                <div class="job-icon">⬡</div>
+                <div class="job-content">
+                    <span class="job-category">DEVELOPMENT</span>
+                    <h3>Full-Stack Developer</h3>
+                    <p>Work across both frontend and backend to build complete web applications.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/generative-ai-engineer.html" class="job-card" data-category="data" data-name="generative ai engineer">
+                <div class="job-icon">✧</div>
+                <div class="job-content">
+                    <span class="job-category">DATA & AI</span>
+                    <h3>Generative AI Engineer</h3>
+                    <p>Build AI applications using modern generative models, APIs, retrieval and automation.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/Ml_Specialists.html" class="job-card" data-category="data" data-name="mi specialist machine intelligence specialist">
+                <div class="job-icon">⌁</div>
+                <div class="job-content">
+                    <span class="job-category">DATA & AI</span>
+                    <h3>MI Specialist</h3>
+                    <p>Apply machine intelligence techniques to solve practical business and technology problems.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/network-engineer.html" class="job-card" data-category="network" data-name="network engineer">
+                <div class="job-icon">⌁</div>
+                <div class="job-content">
+                    <span class="job-category">NETWORKING</span>
+                    <h3>Network Engineer</h3>
+                    <p>Configure, monitor and maintain the networks that connect systems and users.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/nlp-engineer.html" class="job-card" data-category="data" data-name="nlp engineer">
+                <div class="job-icon">Aa</div>
+                <div class="job-content">
+                    <span class="job-category">DATA & AI</span>
+                    <h3>NLP Engineer</h3>
+                    <p>Develop AI systems that understand, process and generate human language.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/software-engineer.html" class="job-card" data-category="development" data-name="software engineer">
+                <div class="job-icon">{ }</div>
+                <div class="job-content">
+                    <span class="job-category">DEVELOPMENT</span>
+                    <h3>Software Engineer</h3>
+                    <p>Design, develop, test and maintain software that solves real-world problems.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+            <a href="Jobs/ui-ux-designer.html" class="job-card" data-category="design" data-name="ui ux designer ui/ux designer">
+                <div class="job-icon">✎</div>
+                <div class="job-content">
+                    <span class="job-category">DESIGN</span>
+                    <h3>UI/UX Designer</h3>
+                    <p>Design clear, useful and engaging digital experiences around real user needs.</p>
+                    <span class="view-link">Explore role <b>→</b></span>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="no-results" id="noResults">
+            <div>⌕</div>
+            <h3>No roles found</h3>
+            <p>Try another job title or choose a different category.</p>
+        </div>
+    </main>
+
+    <!-- Bottom CTA -->
+    <section class="career-cta">
+        <div>
+            <span class="eyebrow">NOT SURE WHAT FITS YOU?</span>
+            <h2>Let NexPath predict your career direction.</h2>
+            <p>Use your interests and skills to discover a path worth exploring.</p>
+        </div>
+        <a href="prediction.php" class="primary-btn">Take Career Prediction <span>→</span></a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-brand">
+            <a href="index.php" class="logo">
+                <span class="logo-mark">N</span>
+                <span>Nex<span>Path</span></span>
+            </a>
+            <p>Discover. Learn. Grow.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="prediction.php">Prediction</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About</a>
+            <a href="model-performance.php">Model Performance</a>
+            <a href="contact.php">Contact</a>
+        </div>
+
+        <p class="copyright">© 2026 NexPath. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const searchInput = document.getElementById("jobSearch");
+        const cards = document.querySelectorAll(".job-card");
+        const filters = document.querySelectorAll(".filter");
+        const noResults = document.getElementById("noResults");
+        const jobCount = document.getElementById("jobCount");
+
+        let selectedCategory = "all";
+
+        function filterJobs() {
+            const search = searchInput.value.toLowerCase().trim();
+            let visible = 0;
+
+            cards.forEach(card => {
+                const name = card.dataset.name;
+                const category = card.dataset.category;
+
+                const matchesSearch = name.includes(search);
+                const matchesCategory =
+                    selectedCategory === "all" || category === selectedCategory;
+
+                if (matchesSearch && matchesCategory) {
+                    card.style.display = "flex";
+                    visible++;
+                } else {
+                    card.style.display = "none";
+                }
+            });
+
+            jobCount.textContent = visible + (visible === 1 ? " role" : " roles");
+            noResults.style.display = visible === 0 ? "block" : "none";
+        }
+
+        searchInput.addEventListener("input", filterJobs);
+
+        filters.forEach(button => {
+            button.addEventListener("click", () => {
+                filters.forEach(item => item.classList.remove("active"));
+                button.classList.add("active");
+                selectedCategory = button.dataset.filter;
+                filterJobs();
+            });
+        });
+    </script>
+
+</body>
+</html>
